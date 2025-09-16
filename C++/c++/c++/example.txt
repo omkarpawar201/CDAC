@@ -1,0 +1,1 @@
+Then, we need to read the file line-by-line. To do this, we need to loop through each line of the file until all the lines are read, i.e., until we reach the end of the file.

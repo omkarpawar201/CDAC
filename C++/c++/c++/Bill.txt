@@ -1,0 +1,34 @@
+Bill1
+Customer: Omkar
+----------------------------------
+ID	    Name	Price	Quantity	Total
+1001	bottle	30	2		60
+1002	pen	10	5		50
+----------------------------------
+Total = 220
+------- Bill 1-------
+Customer: Pawar
+----------------------------------
+ID	Name	Price	Quantity	Total
+1001	bottle	30	2		60
+1002	pen	10	5		50
+----------------------------------
+Total = 220
+------- Bill 1 -------
+
+Customer: abc
+----------------------------------
+ID	Name	Price	Quantity	Total
+1001	bottle	30	10		300
+1002	pen	10	20		200
+----------------------------------
+Total = 1000
+------- Bill  -------
+
+Customer: abc
+----------------------------------
+ID	Name	Price	Quantity	Total
+1001	bottle	30	15		450
+1002	pen	10	15		150
+----------------------------------
+Total = 1200
