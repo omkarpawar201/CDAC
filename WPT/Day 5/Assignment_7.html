@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Validation</title>
+</head>
+
+<body>
+    <form onsubmit="return validateForm()">
+        Fname: <input type="text" id="fname"><span id="fnameError" style="color:red"></span><br><br>
+        Lname: <input type="text" id="lname"><span id="lnameError" style="color:red"></span><br><br>
+        EID: <input type="text" id="email"><span id="emailError" style="color:red"></span><br><br>
+        DOB: <input type="date" id="date"><span id="dateError" style="color:red"></span><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function validateForm() {
+            let fname = document.getElementById("fname").value;
+            let lname = document.getElementById("lname").value;
+            let eid = document.getElementById("email").value;
+            let dob = document.getElementById("date").value;
+            let valid = true;
+
+            document.getElementById("fnameError").innerHTML = "";
+            document.getElementById("lnameError").innerHTML = "";
+            document.getElementById("emailError").innerHTML = "";
+            document.getElementById("dateError").innerHTML = "";
+
+            if (fname.trim() === "") {
+                document.getElementById("fnameError").innerHTML = " First name is required!";
+                valid = false;
+            }
+            if (lname.trim() === "") {
+                document.getElementById("lnameError").innerHTML = " Last name is required!";
+                valid = false;
+            }
+            if (eid === "") {
+                document.getElementById("emailError").innerHTML = " Email required!";
+                valid = false;
+            }
+            if (dob === "") {
+                document.getElementById("dateError").innerHTML = " Date required!";
+                valid = false;
+            }
+            return valid;
+        }
+    </script>
+</body>
+
+</html>

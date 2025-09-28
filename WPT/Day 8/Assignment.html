@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Validation</title>
+    <style>
+        html,
+        body {
+            display: block;
+            background-color: #98ff98;
+            justify-content: center;
+        }
+
+        #d1 {
+            margin-top: 50px;
+            margin-left: 400px;
+            margin-right: 400px;
+            margin-bottom: 50px;
+            justify-content: center;
+            padding: 50px 50px 50px 50px;
+            background-color: #6596ff;
+            border: solid 2px rgb(0, 0, 0);
+            border-radius: 10px;
+            font-family: system-ui;
+            color: white;
+            text-align: center;
+            font-size: 17px;
+        }
+
+        textarea {
+            padding-bottom: 5px;
+            border: solid 2px #ffffff;
+            background-color: #d3d3d3;
+            border-radius: 15px;
+            width: 200px;
+            text-align: center;
+            font-size: 18px;
+            height: 25px;
+        }
+
+        input {
+            padding-bottom: 5px;
+            border: solid 2px #ffffff;
+            background-color: #d3d3d3;
+            border-radius: 15px;
+            width: 200px;
+            text-align: center;
+            font-size: 18px;
+            height: 25px;
+        }
+
+        button {
+            background-color: #0087f5;
+            border: solid 2px #ffffff;
+            color: white;
+            border-radius: 20px;
+            font-size: 14px;
+            width: 100px;
+            height: 30px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            /* background-color: #58aef5; */
+            background-color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="d1">
+        <label for="string">Enter the String</label><br>
+        <textarea type="text" id="string" name="string"></textarea><br><br>
+
+        <label for="rows">Enter No. of Rows</label><br>
+        <input type="text" id="rows" name="rows"><br><br>
+
+        <p id="p1">______</p><br>
+
+        <button type="submit" onclick="convert()">Submit</button>
+    </div>
+
+
+    <script>
+
+        function convert() {
+
+            let data = document.getElementById("string").value
+            let rows = parseInt(document.getElementById("rows").value)
+
+            // console.log(rows)
+            // console.log(typeof(rows))
+            // console.log(data.length)
+            let end = parseInt(data.length / rows)
+            // console.log(end)
+            let start = 0
+            let val
+
+            let str = ""
+
+            for (let i = 0; i < rows; i++) {
+
+                str += data.substring(start, end) + "<br>"
+                start = end
+                end = end + end + 1
+
+                // console.log(end)
+                console.log(val)
+            }
+            document.getElementById("p1").innerHTML = str
+        }
+
+    </script>
+</body>
+
+</html>

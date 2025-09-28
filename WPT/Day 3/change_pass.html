@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <style>
+        html,
+        body {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: white;
+        }
+
+
+        div {
+            /* padding-top: 50px;
+			padding-bottom: 50px; */
+            display: grid;
+            justify-content: center;
+            background-color: rgb(0, 255, 85);
+            /* margin-top: 100px; */
+            padding: 50px 40px;
+            border-radius: 40px;
+            gap: 15px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 25px;
+            font-size: 18px;
+        }
+
+        input[type="text"],
+        input[type="Password"] {
+            padding: 8px;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+        }
+
+        input[type="Reset"],
+        input[type="submit"] {
+            padding: 8px;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="">
+        <div>
+
+            <label>Enter Your Current Password</label>
+            <input name="pass" type="Password" maxlength="5" />
+            <br />
+            <label>Enter New Password</label>
+            <input name="pass" type="Password" maxlength="5" />
+            <br />
+            <label> Confirm Password</label>
+            <input name="pass" type="Password" maxlength="5" />
+            <br />
+
+            <input type="Reset" />
+
+            <input type="submit" value="Submit" /><br />
+        </div>
+    </form>
+</body>
+
+
+</html>

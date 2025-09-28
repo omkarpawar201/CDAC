@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Table</title>
+    <style>
+        html,
+        body {
+            display: block;
+            background-color: #98ff98;
+            justify-content: center;
+        }
+
+        #d1 {
+            margin-top: 50px;
+            margin-left: 400px;
+            margin-right: 400px;
+            margin-bottom: 50px;
+            justify-content: center;
+            padding: 50px 50px 50px 50px;
+            background-color: #6596ff;
+            border: solid 2px rgb(0, 0, 0);
+            border-radius: 10px;
+            font-family: system-ui;
+            color: white;
+            text-align: center;
+            font-size: 17px;
+        }
+
+
+        input {
+            padding-bottom: 5px;
+            border: solid 2px #ffffff;
+            background-color: #d3d3d3;
+            border-radius: 15px;
+            width: 200px;
+            text-align: center;
+            font-size: 18px;
+            height: 25px;
+        }
+
+        button {
+            background-color: #0087f5;
+            border: solid 2px #ffffff;
+            color: white;
+            border-radius: 20px;
+            font-size: 14px;
+            width: 100px;
+            height: 30px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            /* background-color: #58aef5; */
+            background-color: #000000;
+        }
+
+        #output {
+            border-collapse: collapse;
+            margin: 20px auto;
+            width: 50%;
+            font-size: 18px;
+            background-color: #00ff95;
+        }
+
+        #output th,
+        #output td {
+            border: 1px solid #333;
+            padding: 8px 16px;
+            text-align: center;
+            color: #000000;
+        }
+
+        #output th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="d1">
+
+        <label for="num">Number</label><br>
+        <input type="text" class="input" id="num1"><br><br>
+
+        <label for="num">Upto Number</label><br>
+        <input type="text" class="input" id="num2"><br><br>
+        <!-- <p id="p1"></p><br> -->
+
+        <button type="submit" onclick="table()">Show</button><br><br>
+        <table id="output">
+
+        </table>
+
+    </div>
+
+    <script>
+        function table() {
+
+            let num1 = parseInt(document.getElementById("num1").value)
+            let num2 = parseInt(document.getElementById("num2").value)
+
+            let val = "<tr><th>Expression</th><th>Result</th></tr>"
+
+            for (let i = 1; i <= num2; i++) {
+                val += "<tr><td>" + num1 + "x" + i + "</td><td>" + (num1 * i) + "</td></tr>";
+
+            }
+
+            document.getElementById("output").innerHTML = val;
+        }
+
+
+    </script>
+
+</body>
+
+</html>

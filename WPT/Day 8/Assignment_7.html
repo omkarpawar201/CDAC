@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src = "jquery-3.7.1.min.js"></script>
+    <!-- OR <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <style>
+        #d1{
+            border:2px;
+            border-style: solid;
+            background-color: rgb(140, 255, 192);
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            border-radius: 8px;
+            text-align: center;
+            
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+    </style>
+</head>
+<body>
+    <div id = "d1"><b>Data  </b></div>
+    <br><br><br><br><br><br>
+    <button type="button" id="b1">Slide UP  </button>
+    <button type="button" id="b2">Slide Down  </button>
+    <script>
+
+        $(document).ready(function()
+        {
+           
+            $("#b1").click(function(){
+               $("#d1").slideUp(3000);
+            })
+             $("#b2").click(function(){
+               $("#d1").slideDown(3000);
+            }) 
+        })
+        
+    </script>
+    
+</body>
+</html>

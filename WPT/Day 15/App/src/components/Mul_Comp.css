@@ -1,0 +1,21 @@
+/* #d4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;      
+    top: 0;
+    left: 0;
+    width: 100vw;          
+    height: 100vh;         
+    background-color: #A8FBD3;
+} */
+/* body {
+    background-color: #FFD93D;
+} */
+
+h2 {
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(58, 58, 58);
+}

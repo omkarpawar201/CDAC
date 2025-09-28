@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .highlight {
+            background-color: yellow;
+            color: red;
+            font-weight: bold;
+        }
+
+        .bordered {
+            border: 2px solid blue;
+            padding: 10px;
+        }
+    </style>
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <h2 id="demoText">This is a demo text.</h2>
+    <button id="addBtn">Add Highlight</button>
+    <button id="removeBtn">Remove Highlight</button>
+    <button id="toggleBtn">Toggle Border</button>
+
+    <script>
+        $(document).ready(function () {
+            $('#addBtn').click(function () {
+                $('#demoText').addClass('highlight');
+            });
+            $('#removeBtn').click(function () {
+                $('#demoText').removeClass('highlight');
+            });
+            $('#toggleBtn').click(function () {
+                $('#demoText').toggleClass('bordered');
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form Validation</title>
+</head>
+
+<body>
+  <form onsubmit="return validateForm()">
+    Name: <input type="text" id="name"><br><span id="nameError" style="color:red"></span><br><br>
+    Age: <input type="number" id="age"><span id="ageError" style="color:red"></span><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    function validateForm() {
+      let name = document.getElementById("name").value;
+      let age = document.getElementById("age").value;
+      let valid = true;
+
+      document.getElementById("nameError").innerHTML = "";
+      document.getElementById("ageError").innerHTML = "";
+
+      if (name.trim() === "") {
+        document.getElementById("nameError").innerHTML = " Name is required!";
+        valid = false;
+      }
+      if (age === "" || age <= 0) {
+        document.getElementById("ageError").innerHTML = " Valid age required!";
+        valid = false;
+      }
+
+      return valid;
+    }
+  </script>
+</body>
+
+</html>

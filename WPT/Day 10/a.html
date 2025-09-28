@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html,
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        #d1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            font-family: system-ui;
+        }
+
+        button {
+            font-size: 18px;
+            font-family: cursive;
+            border: solid 1px black;
+            border-radius: 20px;
+            height: 40px;
+            width: 150px;
+            background-color: rgb(0, 140, 255);
+            color: #ffffff;
+            box-shadow: 5px 5px 2px 1px #8f8f8f;
+            cursor: pointer;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin-top: 20px;
+        }
+
+        td {
+            border: 1px solid #949494;
+            padding: 10px;
+            text-align: left;
+            background-color: #bed8ff;
+        }
+
+        th {
+            border: 1px solid #949494;
+            padding: 10px;
+            text-align: center;
+            background-color: #2dff61;
+        }
+
+        p {
+            font-size: 20px;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="d1">
+        <button type="button" onclick="viewData()">Click Me! &#128512;</button><br><br>
+        <p id="p1"></p>
+        <table id="out">
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        function fetchData() {
+            return new Promise((resolve, reject) => {
+                let request = new XMLHttpRequest();
+                request.open("GET", "https://jsonplaceholder.typicode.com/posts");
+                request.onload = function () {
+                    if (request.status === 200) {
+                        resolve(JSON.parse(request.responseText));
+                    } else {
+                        reject("Failed to load data. Status: " + request.status);
+                    }
+                };
+                request.onerror = function () {
+                    reject("Network error");
+                };
+                request.send();
+            });
+        }
+
+        function viewData() {
+            fetchData()
+                .then(data => {
+                    // Get the table element
+                    let table = document.getElementById("out");
+
+                    // Insert rows into the table
+                    data.forEach(element => {
+                        let newRow = table.insertRow(table.rows.length);
+                        newRow.insertCell(0).innerHTML = element.id;
+                        newRow.insertCell(1).innerHTML = element.title;
+                    });
+                })
+                .catch(error => {
+                    // Display error message
+                    document.getElementById("p1").innerHTML = error;
+                });
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Scroller</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    
+    #quote {
+      font-size: 24px;
+      color: #333;
+      font-weight: bold;
+      width: 100%;
+      white-space: nowrap;
+      position: absolute;
+      top: 100px;
+    }
+
+    #scrollerBtn {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    #scrollerBtn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="quote">"Success is not the key to happiness. Happiness is the key to success." - Albert Schweitzer</div>
+  <button id="scrollerBtn">Start Scrolling</button>
+
+  <script>
+    $(document).ready(function() {
+      $('#scrollerBtn').click(function() {
+        var quote = $('#quote');
+        
+        // Set initial position
+        quote.css({ left: '100%' });
+
+        // Scroll the quote 4 times from left to right
+        for (let i = 0; i < 4; i++) {
+          quote.animate({ left: '-100%' }, 4000, 'linear')
+               .animate({ left: '100%' }, 4000, 'linear');
+        }
+
+        // After 4 cycles, scroll from right to left
+        quote.animate({ left: '-100%' }, 4000, 'linear');
+      });
+    });
+  </script>
+
+</body>
+</html>

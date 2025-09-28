@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+
+
+        $(document).ready(function () {
+            $("b1").click(function () {
+                $.get("data.txt",
+                    function (data, status) {
+                        if (status == 200) {
+
+                            $("div").text(data);
+
+                        } else {
+
+                        }
+                    })
+            })
+        })
+
+    </script>
+
+</head>
+
+
+<body>
+    <button id="b1" value="click">click</button>
+</body>
+
+</html>

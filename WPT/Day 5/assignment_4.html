@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Array Operations</title>
+</head>
+
+<body>
+    <input type="text" id="arr" placeholder="Enter element of array">
+    <button onclick="addEnd()">Add at End</button>
+    <button onclick="addStart()">Add at start</button>
+    <button onclick="delEnd()">delete from end </button>
+    <button onclick="delStart()">delete from start </button>
+    <button onclick="evenNo()">display even numbers</button>
+    <button onclick="oddNo()">display odd numbers</button>
+
+    <p id="result"></p>
+
+    <script>
+        let arr = [];
+
+    function display() {
+      document.getElementById("result").innerText = "Array: " + arr.join(", ");
+    }
+
+    function addEnd() {
+      let val = document.getElementById("arr").value;
+      if(val) arr.push(parseInt(val));
+      display();
+    }
+
+    function addStart() {
+      let val = document.getElementById("arr").value;
+      if(val) arr.unshift(parseInt(val));
+      display();
+    }
+
+    function delEnd() {
+      arr.pop();
+      display();
+    }
+
+    function delStart() {
+      arr.shift();
+      display();
+    }
+
+    function oddNo() {
+      let odd = arr.filter(num => num % 2 !== 0);
+      document.getElementById("result").innerText = "Odd Numbers: " + odd.join(", ");
+    }
+
+    function evenNo() {
+      let even = arr.filter(num => num % 2 === 0);
+      document.getElementById("result").innerText = "Even Numbers: " + even.join(", ");
+    }
+    </script>
+</body>
+
+</html>

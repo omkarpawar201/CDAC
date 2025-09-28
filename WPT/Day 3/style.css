@@ -1,0 +1,48 @@
+/* HTML selectors */
+input {
+    color: #0000ff;
+    background-color: #ffffff;
+    font-style: italic;
+    border: 2px solid #070725;
+}
+
+p {
+    color: #008b00;
+    background-color: #ffffff;
+    font-style: italic;
+    border: 1px dashed #047404;
+    padding: 5px;
+}
+
+select {
+    color: #ff0000;
+    background-color: #fff0f5;
+    font-style: normal;
+    border: 2px dotted #ff0000;
+}
+
+/* Class selectors */
+.moderate {
+    color: #ff00bf;
+    background-color: #f5f5f5;
+    font-style: normal;
+    border: 1px solid #ff66d9;
+    padding: 8px;
+}
+
+.gaudy {
+    color: #ffff00;
+    background-color: #790079;
+    font-style: italic;
+    border: 3px double #ffd900;
+    padding: 10px;
+}
+
+/* ID selector */
+#id1 {
+    color: #ffffff;
+    background-color: #007575;
+    font-style: italic;
+    border: 4px groove #008181;
+    padding: 12px;
+}

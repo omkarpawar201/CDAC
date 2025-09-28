@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Validation</title>
+    <style>
+        html,
+        body {
+            display: block;
+            background-color: #98ff98;
+            justify-content: center;
+        }
+
+        #d1 {
+            margin-top: 50px;
+            margin-left: 400px;
+            margin-right: 400px;
+            margin-bottom: 50px;
+            justify-content: center;
+            padding: 50px 50px 50px 50px;
+            background-color: #6596ff;
+            border: solid 2px rgb(0, 0, 0);
+            border-radius: 10px;
+            font-family: system-ui;
+            color: white;
+            text-align: center;
+            font-size: 17px;
+        }
+
+        input {
+            padding-bottom: 5px;
+            border: solid 2px #ffffff;
+            background-color: #d3d3d3;
+            border-radius: 15px;
+            width: 200px;
+            text-align: center;
+            font-size: 18px;
+            height: 25px;
+        }
+
+        button {
+            background-color: #0087f5;
+            border: solid 2px #ffffff;
+            color: white;
+            border-radius: 20px;
+            font-size: 14px;
+            width: 100px;
+            height: 30px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #58aef5;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            width: 100%;
+            font-family: system-ui;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #3473fc;
+            color: #fff;
+            text-align: center;
+        }
+
+        span {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="d1">
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="fname" class="form-input"><br><span id="fnameError"></span><br><br>
+
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lname" class="form-input"><br><span id="lnameError"></span><br><br>
+
+        <label for="Age">Age</label><br>
+        <input type="text" id="Age" name="Age" class="form-input"><br><span id="ageError"></span><br><br>
+
+        <button type="submit" onclick="if(validateForm()) addData()">Submit</button>
+    </div>
+
+    <table id="output">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+    </table>
+
+    <script>
+
+        let dataArr = [];
+
+        function validateForm() {
+            let fname = document.getElementById("fname").value;
+            let lname = document.getElementById("lname").value;
+            let age = document.getElementById("Age").value;
+            let valid = true;
+
+            document.getElementById("fnameError").innerHTML = "";
+            document.getElementById("lnameError").innerHTML = "";
+            document.getElementById("ageError").innerHTML = "";
+
+            if (fname.trim() === "") {
+                document.getElementById("fnameError").innerHTML = " First name is required!";
+                valid = false;
+            }
+            if (lname.trim() === "") {
+                document.getElementById("lnameError").innerHTML = " Last name is required!";
+                valid = false;
+            }
+            if (age === "") {
+                document.getElementById("ageError").innerHTML = " Age required!";
+                valid = false;
+            }
+            return valid;
+        }
+
+        function addData() {
+
+            let fname = document.getElementById("fname").value;
+            let lname = document.getElementById("lname").value;
+            let age = document.getElementById("Age").value;
+            let obj = {
+                firstName: fname,
+                lastName: lname,
+                age: age
+            };
+
+            dataArr.push(obj);
+
+            let jsonData = JSON.stringify(dataArr);
+
+            displayFromJSON(jsonData);
+
+            document.getElementById("fname").value = "";
+            document.getElementById("lname").value = "";
+            document.getElementById("Age").value = "";
+        }
+
+        function displayFromJSON(jsonStr) {
+            let arr = JSON.parse(jsonStr);
+            let table = document.getElementById("output");
+
+            while (table.rows.length > 1) {
+                table.deleteRow(1);
+            }
+
+            arr.forEach(function (item) {
+                let newrow = table.insertRow(-1);
+                newrow.insertCell(0).innerHTML = item.firstName;
+                newrow.insertCell(1).innerHTML = item.lastName;
+                newrow.insertCell(2).innerHTML = item.age;
+            });
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Validation</title>
+
+    <script src="jquery-3.7.1.min.js"></script>
+
+    <style>
+        html,
+        body {
+            display: block;
+            background-color: #98ff98;
+            justify-content: center;
+        }
+
+        #d1 {
+            margin-top: 50px;
+            margin-left: 400px;
+            margin-right: 400px;
+            margin-bottom: 50px;
+            justify-content: center;
+            padding: 50px 50px 50px 50px;
+            background-color: #6596ff;
+            border: solid 2px rgb(0, 0, 0);
+            border-radius: 10px;
+            font-family: system-ui;
+            color: white;
+            text-align: center;
+            font-size: 17px;
+        }
+
+
+        input {
+            padding-bottom: 5px;
+            border: solid 2px #ffffff;
+            background-color: #d3d3d3;
+            border-radius: 15px;
+            width: 200px;
+            text-align: center;
+            font-size: 18px;
+            height: 25px;
+        }
+
+        button {
+            background-color: #0087f5;
+            border: solid 2px #ffffff;
+            color: white;
+            border-radius: 20px;
+            font-size: 14px;
+            width: 100px;
+            height: 30px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            /* background-color: #58aef5; */
+            background-color: #000000;
+        }
+    </style>
+
+    <script>
+
+        $(document).ready(
+
+            function () {
+                $("button").click(
+                    function () {
+                        let n = $("#num").val();
+                        console.log(n);
+
+                        let fact = 1;
+
+                        for (let i = 1; i <= n; i++) {
+
+                            fact = fact * i;
+                        }
+
+                        let c = "<p>" + fact + "</p>"
+                        $("button").before(c)
+                    })
+            })
+
+    </script>
+</head>
+
+<body>
+
+    <div id="d1">
+
+        <label for="num">Enter the Number</label><br>
+        <input type="text" class="input" id="num"><br><br>
+
+        <!-- <p id="p1"></p><br> -->
+
+        <button type="submit" value="click">Submit</button>
+    </div>
+
+</body>
+
+</html>

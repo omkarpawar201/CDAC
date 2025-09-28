@@ -1,0 +1,104 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html,
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: bisque
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            background-color: rgb(0, 255, 179);
+            padding-top: 50px;
+            padding-bottom: 50px;
+            width: 500px;
+            border: solid 1px black;
+            border-radius: 20px;
+            box-shadow: 12px 12px 1px 1px rgb(177, 177, 177);
+        }
+
+        label {
+            font-size: 20px;
+            font-family: cursive;
+        }
+
+        input {
+            height: 40px;
+            width: 300px;
+            border: solid 2px white;
+            border-radius: 20px;
+            background-color: rgb(192, 192, 192);
+            text-align: center;
+            font-size: 25px;
+            font-family: cursive;
+        }
+
+        #p1 {
+            font-size: 25px;
+            font-family: cursive
+        }
+
+        span {
+            font-style: italic;
+            font-family: system-ui;
+            color: red;
+            text-align: center
+        }
+
+        button {
+            background-color: #0087f5;
+            border: solid 2px #ffffff;
+            color: white;
+            border-radius: 20px;
+            font-size: 14px;
+            width: 100px;
+            height: 40px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #58aef5;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <label for="uname">Enter Username</label><br>
+        <input type="text" required id="i1" name="uname" minlength="5" maxlength="12"><br><span id="s1"></span><br>
+        <p id="p1">_________</p><br>
+        <button type="submit" onclick="validate()">Submit</button>
+    </div>
+
+    <script>
+
+        function validate() {
+
+            document.getElementById("s1").innerText = "";
+
+            let data = document.getElementById("i1");
+
+            console.log(data.checkValidity())
+
+            if (data.checkValidity()) {
+                document.getElementById("p1").innerText = document.getElementById("i1").value;
+            } else {
+                document.getElementById("s1").innerText = data.validationMessage
+            }
+        }
+    </script>
+</body>
+
+</html>

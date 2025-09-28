@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <p id="clickPara">Click here to show multiline text</p>
+
+    <script>
+        $('#clickPara').on('click', function () {
+            $(this).html(
+                "Line 1: This is the first line<br>" +
+                "Line 2: Here's the second line<br>" +
+                "Line 3: And this is the third line<br>" +
+                "Line 4: Ending it here!"
+            );
+        });
+    </script>
+
+</body>
+</html>

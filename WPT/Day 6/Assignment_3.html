@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <style>
+        html,
+        body {
+            display: flex;
+            background-color: white;
+            justify-content: center;
+        }
+
+        #d1 {
+            display: block;
+            justify-content: center;
+            text-align: center;
+            background-color: cadetblue;
+            /* margin: 100px 100px 100px 100px; */
+            margin-top: 100px;
+            margin-bottom: 200px;
+            padding: 50px 100px 100px 100px;
+            border: solid 2px black;
+            border-radius: 20px;
+            font-family: system-ui;
+        }
+
+        #h1 {
+            color: white;
+
+        }
+
+        #p1 {
+            color: white;
+            font-size: 20px;
+            font-family: system-ui;
+        }
+
+        button {
+            background-color: #00b7ff;
+            border: #ffffff;
+            color: white;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            padding: 8px 18px;
+            width: fit-content;
+            height: 40px;
+            transition: background-color 0.3s;
+            box-shadow: #000000 0 10px 20px -10px;
+            box-sizing: border-box;
+        }
+
+        button:hover {
+            background-color: #99d1ff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="d1">
+        <h1 id="h1">Counter</h1>
+        <p id="p1">0</p>
+        <button id="button" onclick="mycounter()">Click Me &#128512</button>
+    </div>
+
+    <script>
+
+        let click = 0
+
+        function counter() {
+
+            let count = 0
+            return function () { return count += 1; };
+        }
+
+        const add = counter()
+
+        function mycounter() {
+            let val = document.getElementById("p1").innerHTML = add()
+            click++
+
+            if (click >= 10) 
+            {
+                button.disabled = true
+                button.style.backgroundColor = "grey"
+                button.title = "Limit Reached 😢"
+            }
+        }
+    </script>
+</body>
+
+</html>

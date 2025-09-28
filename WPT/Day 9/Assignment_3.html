@@ -1,0 +1,143 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html,
+        body {
+
+            display: block;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #d1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            font-family: system-ui;
+        }
+
+        #d2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #2dffed;
+            justify-content: center;
+            font-size: 25px;
+            font-family: system-ui;
+            border: solid 1px black;
+            border-radius: 20px;
+            width: 300px;
+            margin-left: 500px;
+            margin-bottom: 50px;
+        }
+
+        input {
+            margin-top: 30px;
+            margin-bottom: 10px;
+            background-color: #c0c0c0;
+            border: solid 1px #ffffff;
+            border-radius: 20px;
+            height: 30px;
+            width: 200px;
+            font-size: 20px;
+            text-align: center;
+            font-family: cursive;
+            box-shadow: 5px 5px 2px 1px #8f8f8f;
+        }
+
+        button {
+            font-size: 18px;
+            font-family: cursive;
+            border: solid 1px black;
+            border-radius: 20px;
+            height: 40px;
+            width: 150px;
+            background-color: rgb(0, 140, 255);
+            color: #ffffff;
+            box-shadow: 5px 5px 2px 1px #8f8f8f;
+        }
+
+        table {
+            border-collapse: separate;
+            width: 80%;
+        }
+
+        td {
+            border: 1px solid #949494;
+            padding: 10px;
+            text-align: left;
+            background-color: #bed8ff;
+        }
+
+        th {
+            border: 1px solid #949494;
+            padding: 10px;
+            text-align: center;
+            background-color: #2dff61;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="d2">
+        <br><input type="text" id="i1">
+        <br><button type="submit" onclick="viewData()">Click Me ! &#128512</button><br><br>
+    </div>
+
+    <div id="d1">
+
+        <table id="out">
+            <tr>
+                <th>User ID</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Body</th>
+            </tr>
+        </table>
+
+    </div>
+    <script>
+
+        function viewData() {
+
+            let request = new XMLHttpRequest()
+
+            request.open("GET", "https://jsonplaceholder.typicode.com/posts")
+            request.send()
+
+            request.onload = function () {
+                if (request.status == 200) {
+
+                    let data = JSON.parse(request.responseText)
+                    let table = document.getElementById("out")
+                    let val = document.getElementById("i1").value
+
+                    if (table.rows.length > 1) {
+                        table.deleteRow(1);
+                    }
+                    let newrow = table.insertRow(table.rows.length)
+
+                    newrow.insertCell(0).innerHTML = data[val - 1].userId
+                    newrow.insertCell(1).innerHTML = data[val - 1].id
+                    newrow.insertCell(2).innerHTML = data[val - 1].title
+                    newrow.insertCell(3).innerHTML = data[val - 1].body
+                }
+                else {
+                    document.getElementById("p1").innerHTML = "File not found"
+                }
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
