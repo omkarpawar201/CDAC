@@ -1,0 +1,22 @@
+#d3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;      
+    top: 0;
+    left: 0;
+    width: 100vw;          
+    height: 100vh;         
+    background-color: #84994F;
+}
+
+#p6 {
+
+    color: black;
+    padding: 10px;
+    font-size: 50px;
+    background-color: #FCC61D;
+    box-shadow: 8px 8px 1px 1px rgb(255, 255, 255);
+    border: solid 1px #FCC61D;
+    border-radius: 20px;
+}
