@@ -1,0 +1,22 @@
+#main-div{
+  margin-bottom: 350px;
+  padding: 0;
+}
+
+#nav1 {
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  background-color: #c795ff;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+#list1{
+  /* color: white; */
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 1230px;
+  gap: 100px;
+}
