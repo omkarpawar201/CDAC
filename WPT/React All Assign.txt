@@ -1,0 +1,116 @@
+Concepts 
+     Function Comp , Class Comp , Event 
+
+1) Create Function Component  with parameters
+     	 a) Factorial ==  pass number as parameter 
+                  b) Calculator ==  pass 2 numbers as attribute 
+                        and display 
+
+		addition , subtraction , division , multiplication 
+	c) in point b  =  accept 1 more argument operation and then 
+                     display data for that operation only 
+
+2)   Create Multiple Function Component in js file 
+       and call those function from index.js file 
+
+3) write class Component 
+    with render method display 
+	1 textField and 2 Buttons
+			upper case , small case 
+	when you click the button display output 
+	in console in UPPERCASE / lowercase 
+    (use event handling )
+
+	check all classroom demos 
+-----------------------------------------------------DAY 16------------------------
+ 1) Create Function Component  with parameters
+     	 a) Factorial ==  pass number as parameter 
+                  b) Calculator ==  pass 2 numbers as attribute 
+                        and display 
+
+		addition , subtraction , division , multiplication 
+	c) in point b  =  accept 1 more argument operation and then 
+                     display data for that operation only 
+
+in above assignments display output On Html Page 
+ 
+
+2)  use predefined methods and check lifecycle of 
+class Component  
+
+3)  accept data in textfield and take 3 radio buttons 
+     on  -  uppercase , lowercase and Title Case 
+
+on selection on that Radio button display appropiate output 
+
+4)
+Write a React Component to accept user details
+name email 
+dropdown
+Graduate, PG , UnderGrad
+
+If the user selects Graduate show GraduateComponent degree, year, final year score, univ
+If the user selects PG show PGComponent year, Thesis subject
+If the user selects UnderGrad show UnderGradComponent SSC , HSC
+( USE conditional Renderring )
+-----------------------------------------------DAY 17------------------------------------------
+
+React Fiber --- 
+
+https://github.com/acdlite/react-fiber-architecture?tab=readme-ov-file#what-is-reconciliation
+
+
+Assignment 
+
+1) with useEffect ---- check lifecycle of Functioncal Componenet
+
+2) create Counter Application with useState
+
+3) in 2nd Assignment --  add useEffect 
+      display table of that counter value on page when counter 
+   is incremented
+
+4) Accept Data in textfield and onBlur event display that 
+   data as List Order List in webpage
+
+------------------------------------------------DAY 18------------------------------------------
+--- 
+to use axios -  install the module 
+
+1) check code for useRef hook 
+
+
+2) load the data from json url 
+and display data in Table Format in page 
+on Button Click 
+
+https://jsonplaceholder.typicode.com/posts
+
+3)  write code for random password generator 
+    as per discuss in Lecture depends on length 
+	need to change 
+	
+4) create Login Form using HTML Form 
+ on submit click display data on page
+ 
+
+
+
+ ----------------------------------------------DAY 19------------------------------------------------
+check demo for useCallBack 
+
+1) use CallBack in password Generator program 
+
+2) Do Program for Error Boundry for Class Component
+-----------------------------------------------DAY 20------------------------------------------------
+1) use prev object in useCallback Assignment
+
+2) write program to use useContext hook
+
+3) create Home.js   , AboutUs.js , Contact.js Function 
+ Component 
+	and call componenets with Router Concept
+from App.js using Link 
+ 
+npm install  react-router-dom
+	
