@@ -1,0 +1,21 @@
+1.  pwd - check currnet directory
+2.  ls - list down the things we have
+3.  mkdir - create directory
+4.  rmdir - remove directory
+5.  whoami - gives username logged in
+6.  cd - change directory
+7.  date - check date
+8.  date +%D - current date in mm/dd/yy
+9.  date +%T - current time in hh:mm:ss
+10. date +%H:%M:%S - current time in hh:mm:ss
+11. cd .. - get out off the current directory
+12. ls -lt - gives details about direcories in latest first order
+13. ls -ltr - gives details about direcories in reverse order
+14. touch file_name.extension - create file
+15. nano file_name - editor
+16. cat file_name - read file
+17. clear - clear terminal
+18. mv file_name dir_name - move file in selected directory
+19. cp file_name dir_name - cp file in selected directory 
+20. chmod - change permissions
+21. ./filename.sh - to run sh file
