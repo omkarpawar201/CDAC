@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="validateuser">
+		User name: <input type="text" name="uname" id="unm"><br />
+		Password: <input type="text" name="pass" id="pass"><br />
+		<button type="submit" name="login" id="login">Login</button>
+	</form>
+	<a href="register.html">register me?</a>
+	<br />
+	<a href="forgotpassword.html">forgot password?</a>
+	<br />
+</body>
+</html>
