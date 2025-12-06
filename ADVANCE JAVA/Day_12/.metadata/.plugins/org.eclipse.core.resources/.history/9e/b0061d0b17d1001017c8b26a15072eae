@@ -1,0 +1,29 @@
+package com.demo.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.beans.Employee;
+
+public class TestEmpGet {
+
+	public static void main(String[] args) {
+		SessionFactory sFactory = new Configuration().configure().buildSessionFactory();
+		Session session = sFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+		
+		Employee employee1 = session.get(Employee.class, 21);
+		Employee employee2 = session.get(Employee.class, 22);
+		
+		session.save(employee1);
+		session.save(employee2);
+		
+		transaction.commit();
+		session.close();
+		sFactory.close();
+
+	}
+
+}

@@ -1,0 +1,40 @@
+package com.demo.dao;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+import com.demo.beans.Cart;
+import com.demo.beans.Product;
+
+public class CartDaoImpl implements CartDao {
+
+	static private SessionFactory sFactory = null;
+
+	static {
+		sFactory = HBUtil.getConnection();
+	}
+
+	@Override
+	public boolean addToCart(int pid) {
+		Session session = sFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+		double total = 0;
+		Product product = session.get(Product.class, pid);
+		Cart cart = new Cart();
+
+		cart.getpList().add(product);
+		total = cart.getTotal_amt() + product.getPrice() * product.getQty();
+		product.getcSet().add(cart);
+		cart.setTotal_amt(total);
+
+		session.save(cart);
+
+		transaction.commit();
+		session.close();
+		return true;
+	}
+
+}

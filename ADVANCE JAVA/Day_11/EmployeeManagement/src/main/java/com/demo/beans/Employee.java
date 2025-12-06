@@ -1,0 +1,90 @@
+package com.demo.beans;
+
+import java.time.LocalDate;
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "employee2")
+public class Employee {
+	@Id
+	private int eid;
+	private String ename;
+	private LocalDate hireDate;
+	private double sal;
+	@ManyToMany(fetch = FetchType.EAGER)
+	Set<Project> pSet;
+
+	public Employee() {
+		super();
+	}
+
+	public Employee(int eid, String ename, LocalDate hireDate, double sal, Set<Project> pSet) {
+		super();
+		this.eid = eid;
+		this.ename = ename;
+		this.hireDate = hireDate;
+		this.sal = sal;
+		this.pSet = pSet;
+	}
+
+	public Employee(int eid, String ename, LocalDate hireDate, double sal) {
+		super();
+		this.eid = eid;
+		this.ename = ename;
+		this.hireDate = hireDate;
+		this.sal = sal;
+	}
+
+	public int getEid() {
+		return eid;
+	}
+
+	public void setEid(int eid) {
+		this.eid = eid;
+	}
+
+	public String getEname() {
+		return ename;
+	}
+
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+
+	public LocalDate getHireDate() {
+		return hireDate;
+	}
+
+	public void setHireDate(LocalDate hireDate) {
+		this.hireDate = hireDate;
+	}
+
+	public double getSal() {
+		return sal;
+	}
+
+	public void setSal(double sal) {
+		this.sal = sal;
+	}
+
+	public Set<Project> getpSet() {
+		return pSet;
+	}
+
+	public void setpSet(Set<Project> pSet) {
+		this.pSet = pSet;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [eid=" + eid + ", ename=" + ename + ", hireDate=" + hireDate + ", sal=" + sal + ", pSet="
+				+ pSet + "]";
+	}
+
+}

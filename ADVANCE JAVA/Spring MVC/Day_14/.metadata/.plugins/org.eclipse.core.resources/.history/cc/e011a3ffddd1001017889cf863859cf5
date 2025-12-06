@@ -1,0 +1,12 @@
+package com.demo.test;
+
+import java.util.Locale;
+
+public class TestLocalization {
+
+	public static void main(String[] args) {
+		Locale locale = Locale.ENGLISH;
+
+	}
+
+}

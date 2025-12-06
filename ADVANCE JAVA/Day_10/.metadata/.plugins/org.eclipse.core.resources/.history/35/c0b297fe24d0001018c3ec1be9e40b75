@@ -1,0 +1,11 @@
+package com.demo.beans;
+
+import java.time.LocalDate;
+import java.util.Set;
+
+public class Project {
+	private int pid;
+	private String pname;
+	private LocalDate pDate;
+	Set<Employee> eSet;
+}

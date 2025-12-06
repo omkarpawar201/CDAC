@@ -1,0 +1,73 @@
+package com.demo.beans;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinTable;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "cart1")
+public class Cart {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int cid;
+	private double total_amt;
+    @ManyToMany
+    @JoinTable(
+        name = "cart1_product3",
+        joinColumns = @JoinColumn(name = "cList_cid"),          
+        inverseJoinColumns = @JoinColumn(name = "pList_pid") 
+        )
+	List<Product> pList;
+
+	public Cart() {
+		super();
+	}
+
+	public Cart(double total_amt, List<Product> pList) {
+		super();
+		this.pList = pList;
+		this.total_amt = total_amt;
+	}
+
+	public Cart(double total_amt) {
+		super();
+		this.total_amt = total_amt;
+	}
+
+	public double getTotal_amt() {
+		return total_amt;
+	}
+
+	public void setTotal_amt(double total_amt) {
+		this.total_amt = total_amt;
+	}
+
+	public int getCid() {
+		return cid;
+	}
+
+	public void setCid(int cid) {
+		this.cid = cid;
+	}
+
+	public List<Product> getpList() {
+		return pList;
+	}
+
+	public void setpList(List<Product> pList) {
+		this.pList = pList;
+	}
+
+	@Override
+	public String toString() {
+		return "Cart [cid=" + cid + ", total_amt=" + total_amt + "]";
+	}
+
+}

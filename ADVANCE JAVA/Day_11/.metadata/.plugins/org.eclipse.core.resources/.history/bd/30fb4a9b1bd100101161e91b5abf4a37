@@ -1,0 +1,9 @@
+package com.demo.services;
+
+public interface ProductService {
+
+	boolean addNewProduct();
+
+	boolean deleteProduct(int pid);
+
+}

@@ -1,0 +1,31 @@
+package com.demo.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.beans.NonPerishable;
+import com.demo.beans.Perishable;
+import com.demo.beans.Product;
+
+public class GetProduct {
+
+	public static void main(String[] args) {
+		SessionFactory sFactory = new Configuration().configure().buildSessionFactory();
+		Session session = sFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+
+		Product product2 = session.get(Perishable.class, 1);
+		Product product3 = session.get(NonPerishable.class, 2);
+		
+		System.out.println(product2);
+		System.out.println(product3);
+
+		transaction.commit();
+		session.close();
+		sFactory.close();
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.demo.services;
+
+import com.demo.dao.EmployeeDao;
+import com.demo.dao.EmployeeDaoImpl;
+
+public class EmployeeServiceImpl implements EmployeeService{
+	EmployeeDao eDao = new EmployeeDaoImpl();
+
+	@Override
+	public boolean addNewEmployee() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

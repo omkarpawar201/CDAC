@@ -1,0 +1,25 @@
+package com.demo.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.beans.Employee;
+
+public class TestEmployeeSave {
+
+	public static void main(String[] args) {
+		SessionFactory sFactory = new Configuration().configure().buildSessionFactory();
+		Session session = sFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+		
+		Employee e1 = new Employee();
+		
+		transaction.commit();
+		session.close();
+		sFactory.close();
+
+	}
+
+}

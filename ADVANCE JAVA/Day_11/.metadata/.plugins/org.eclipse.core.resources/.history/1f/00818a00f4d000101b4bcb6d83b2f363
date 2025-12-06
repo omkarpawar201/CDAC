@@ -1,0 +1,15 @@
+package com.demo.services;
+
+import com.demo.dao.ProjectDao;
+import com.demo.dao.ProjectDaoImpl;
+
+public class ProjectServiceImpl implements ProjectService{
+	ProjectDao pDao = new ProjectDaoImpl();
+
+	@Override
+	public boolean addNewProject() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

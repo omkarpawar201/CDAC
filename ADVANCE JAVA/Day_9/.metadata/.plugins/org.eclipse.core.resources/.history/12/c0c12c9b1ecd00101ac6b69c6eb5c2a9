@@ -1,0 +1,24 @@
+package com.demo.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.beans.Product;
+import com.demo.beans.User;
+
+public class TestUser {
+
+	public static void main(String[] args) {
+		SessionFactory sf = new Configuration().configure().buildSessionFactory();
+		Session session = sf.openSession();
+		Transaction tf = session.beginTransaction();
+		
+		User user1 = new User(1, "abc", "abc@123");
+		User user2 = new User(2, "def", "def@123");
+		Product p1 = new Product("abc", 10, 100);
+		Product p2 = new Product("def", 50, 50);
+	}
+
+}

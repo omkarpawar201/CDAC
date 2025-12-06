@@ -1,0 +1,106 @@
+package com.demo.test;
+
+import java.util.List;
+import java.util.Scanner;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.demo.beans.Product;
+import com.demo.service.ProductService;
+
+public class TestProduct {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("springconfig.xml");
+		ProductService pservice = (ProductService) ctx.getBean("productServiceImpl");
+		int choice = 0;
+
+		do {
+			System.out.println("1. Add new product\n2. Display all\n3. Display by category");
+			System.out.println("4. Display by pid");
+			System.out.println("5. Delete by ID\n6. Modify by ID\n7. Arrange in sorted order");
+			System.out.println("8. Exit");
+			System.out.print("Enter your choice : ");
+			choice = sc.nextInt();
+
+			switch (choice) {
+			case 1 -> {
+				boolean status = pservice.addnewProduct();
+				if (status) {
+					System.out.println("Product added successfully");
+				} else {
+					System.out.println("Product not added");
+				}
+			}
+
+			case 2 -> {
+				List<Product> plist = pservice.getAllProduct();
+				plist.forEach(System.out::println);
+
+			}
+
+			case 3 -> {
+				System.out.print("Enter cid : ");
+				int cid = sc.nextInt();
+				List<Product> plist = pservice.getByCatId(cid);
+				plist.forEach(System.out::println);
+			}
+
+			case 4 -> {
+				System.out.print("Enter pid : ");
+				int pid = sc.nextInt();
+				Product p = pservice.getByPid(pid);
+				if (p != null) {
+					System.out.println(p);
+				} else {
+					System.out.println("Not found");
+				}
+			}
+
+			case 5 -> {
+				System.out.print("Enter pid : ");
+				int pid = sc.nextInt();
+
+				boolean status = pservice.deleteByPid(pid);
+
+				if (status) {
+					System.out.println("Deleted successfully");
+				} else {
+					System.out.println("Not found");
+				}
+			}
+
+			case 6 -> {
+				System.out.print("Enter pid : ");
+				int pid = sc.nextInt();
+				System.out.print("Enter qty : ");
+				int qty = sc.nextInt();
+				System.out.print("Enter price : ");
+				double price = sc.nextDouble();
+
+				boolean status = pservice.modifyById(pid, qty, price);
+
+				if (status) {
+					System.out.println("Updated successfully");
+				} else {
+					System.out.println("Not found");
+				}
+
+			}
+
+			case 7 -> {
+				List<Product> plist = pservice.sorteByPrice();
+				plist.forEach(System.out::println);
+			}
+
+			case 8 -> {
+				sc.close();
+				System.out.println("Thank you...");
+			}
+
+			}
+
+		} while (choice != 8);
+	}
+}

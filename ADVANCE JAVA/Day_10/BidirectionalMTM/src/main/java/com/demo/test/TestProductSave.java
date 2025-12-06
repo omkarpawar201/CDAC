@@ -1,0 +1,53 @@
+package com.demo.test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.beans.Cart;
+import com.demo.beans.Product;
+
+public class TestProductSave {
+
+	public static void main(String[] args) {
+		SessionFactory sFactory = new Configuration().configure().buildSessionFactory();
+		Session session = sFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+
+		Product p1 = new Product(6, "abc", 5, 50);
+		Product p2 = new Product(7, "def", 20, 60);
+		Product p3 = new Product(8, "xyz", 23, 30);
+		Product p4 = new Product(9, "ghi", 60, 20);
+		Product p5 = new Product(10, "jkl", 50, 90);
+		
+		List<Product> pList1 = new ArrayList<>();
+		pList1.add(p5);
+		pList1.add(p2);
+		pList1.add(p1);
+		
+		List<Product> pList2 = new ArrayList<>();
+		pList2.add(p3);
+		pList2.add(p4);
+		pList2.add(p1);
+		
+		Cart c1 = new Cart(1, pList1);
+		Cart c2 = new Cart(2, pList2);
+		
+		session.save(c1);
+		session.save(c2);
+		session.save(p1);
+		session.save(p2);
+		session.save(p3);
+		session.save(p4);
+		session.save(p5);
+
+		transaction.commit();
+		session.close();
+		sFactory.close();
+	}
+
+}

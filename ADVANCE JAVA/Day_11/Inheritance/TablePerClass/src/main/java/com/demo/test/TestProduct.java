@@ -1,0 +1,32 @@
+package com.demo.test;
+
+import java.time.LocalDate;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.beans.NonPerishable;
+import com.demo.beans.Perishable;
+import com.demo.beans.Product;
+
+public class TestProduct {
+	public static void main(String[] args) {
+		SessionFactory sFactory = new Configuration().configure().buildSessionFactory();
+		Session session = sFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+		
+		Product product1 = new Perishable(1, "abc", 25, 12, LocalDate.of(2024, 05, 23), LocalDate.of(2025, 03, 31));
+		Product product2 = new NonPerishable(2, "def", 40, 6500, LocalDate.of(2003, 02, 23), 24);
+		Product product3 = new Product(3, "xyz", 35, 6500, LocalDate.of(2003, 02, 23));
+		
+		session.save(product1);
+		session.save(product2);
+		session.save(product3);
+		
+		transaction.commit();
+		session.close();
+		sFactory.close();
+	}
+}

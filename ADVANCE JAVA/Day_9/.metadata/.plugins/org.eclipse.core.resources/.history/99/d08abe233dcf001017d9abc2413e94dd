@@ -1,0 +1,31 @@
+package com.demo.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.beans.Address;
+import com.demo.beans.User;
+
+public class TestUserSave {
+
+	public static void main(String[] args) {
+		SessionFactory sf = new Configuration().configure().buildSessionFactory();
+		Session session = sf.openSession();
+		Transaction transaction = session.beginTransaction();
+
+		Address address1 = new Address("SB Road", "Pune", "411016");
+		Address address2 = new Address("ABC", "Pune", "411002");
+
+		User user1 = new User(101, "Omkar", "0123456789", address1);
+		User user2 = new User(102, "Pratik", "9876543210", address2);
+		
+		session.save(address1);
+		session.save(address2);
+		session.save(user1);
+		session.save(user2);
+
+	}
+
+}

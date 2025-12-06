@@ -1,0 +1,86 @@
+package com.demo.beans;
+
+import java.time.LocalDate;
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+
+@Entity
+public class Employee {
+	@Id
+	private int eid;
+	private String ename;
+	private LocalDate date;
+	private double sal;
+	@ManyToMany
+	Set<Project> pSet;
+
+	public Employee() {
+		super();
+	}
+
+	public Employee(int eid, String ename, LocalDate date, double sal, Set<Project> pSet) {
+		super();
+		this.eid = eid;
+		this.ename = ename;
+		this.date = date;
+		this.sal = sal;
+		this.pSet = pSet;
+	}
+
+	public Employee(int eid, String ename, LocalDate date, double sal) {
+		super();
+		this.eid = eid;
+		this.ename = ename;
+		this.date = date;
+		this.sal = sal;
+	}
+
+	public int getEid() {
+		return eid;
+	}
+
+	public void setEid(int eid) {
+		this.eid = eid;
+	}
+
+	public String getEname() {
+		return ename;
+	}
+
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+
+	public LocalDate getDate() {
+		return date;
+	}
+
+	public void setDate(LocalDate date) {
+		this.date = date;
+	}
+
+	public double getSal() {
+		return sal;
+	}
+
+	public void setSal(double sal) {
+		this.sal = sal;
+	}
+
+	public Set<Project> getpSet() {
+		return pSet;
+	}
+
+	public void setpSet(Set<Project> pSet) {
+		this.pSet = pSet;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [eid=" + eid + ", ename=" + ename + ", date=" + date + ", sal=" + sal + ", pSet=" + pSet + "]";
+	}
+
+}

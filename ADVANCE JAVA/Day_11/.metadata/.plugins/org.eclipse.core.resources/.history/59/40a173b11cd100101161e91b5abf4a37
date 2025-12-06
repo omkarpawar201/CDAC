@@ -1,0 +1,13 @@
+package com.demo.services;
+
+import com.demo.beans.Product;
+
+public interface ProductService {
+
+	boolean addNewProduct();
+
+	boolean deleteProduct(int pid);
+
+	Product searchProduct(int pid);
+
+}

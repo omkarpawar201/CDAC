@@ -1,0 +1,77 @@
+package com.demo.beans;
+
+import java.time.LocalDate;
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "project3")
+public class Project {
+	@Id
+	private int pid;
+	private String pname;
+	private LocalDate stDate;
+	@ManyToMany
+	Set<Employee> eSet;
+
+	public Project() {
+		super();
+	}
+
+	public Project(int pid, String pname, LocalDate stDate, Set<Employee> eSet) {
+		super();
+		this.pid = pid;
+		this.pname = pname;
+		this.stDate = stDate;
+		this.eSet = eSet;
+	}
+
+	public Project(int pid, String pname, LocalDate stDate) {
+		super();
+		this.pid = pid;
+		this.pname = pname;
+		this.stDate = stDate;
+	}
+
+	public int getPid() {
+		return pid;
+	}
+
+	public void setPid(int pid) {
+		this.pid = pid;
+	}
+
+	public String getPname() {
+		return pname;
+	}
+
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+
+	public LocalDate getStDate() {
+		return stDate;
+	}
+
+	public void setStDate(LocalDate stDate) {
+		this.stDate = stDate;
+	}
+
+	public Set<Employee> geteSet() {
+		return eSet;
+	}
+
+	public void seteSet(Set<Employee> eSet) {
+		this.eSet = eSet;
+	}
+
+	@Override
+	public String toString() {
+		return "Project [pid=" + pid + ", pname=" + pname + ", stDate=" + stDate + ", eSet=" + eSet + "]";
+	}
+
+}

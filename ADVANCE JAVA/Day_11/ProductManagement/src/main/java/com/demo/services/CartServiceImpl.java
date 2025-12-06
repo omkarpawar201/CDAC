@@ -1,0 +1,15 @@
+package com.demo.services;
+
+import com.demo.dao.CartDao;
+import com.demo.dao.CartDaoImpl;
+
+public class CartServiceImpl implements CartService{
+	CartDao cDao = new CartDaoImpl();
+
+	@Override
+	public boolean addToCart(int pid) {
+		// TODO Auto-generated method stub
+		return cDao.addToCart(pid);
+	}
+
+}

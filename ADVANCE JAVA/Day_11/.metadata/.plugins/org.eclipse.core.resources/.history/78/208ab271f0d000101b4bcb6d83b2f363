@@ -1,0 +1,24 @@
+package com.demo.beans;
+
+import java.time.LocalDate;
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "employee1")
+public class Employee {
+	@Id
+	private int eid;
+	private String ename;
+	private LocalDate hireDate;
+	private double sal;
+	@ManyToMany(fetch = FetchType.EAGER)
+	Set<Project> pSet;
+	
+	
+}

@@ -1,0 +1,70 @@
+package com.demo.test;
+
+import java.util.Scanner;
+
+import com.demo.beans.Product;
+import com.demo.services.CartService;
+import com.demo.services.CartServiceImpl;
+import com.demo.services.ProductService;
+import com.demo.services.ProductServiceImpl;
+
+public class TestProductManagement {
+
+	public static void main(String[] args) {
+		ProductService pService = new ProductServiceImpl();
+		CartService cService = new CartServiceImpl();
+		Scanner scanner = new Scanner(System.in);
+		int choice = 0;
+
+		do {
+			System.out.println("1. Add Product");
+			System.out.println("2. Delete Product");
+			System.out.println("3. show all Products");
+			System.out.println("4. Find Product");
+			System.out.println("5. Add Product to cart");
+			System.out.println("6. update Product");
+			System.out.println("7. display Product in sorted order");
+			System.out.println("8. exit");
+			System.out.print("Enter your choice : ");
+			choice = scanner.nextInt();
+
+			switch (choice) {
+			case 1 -> {
+				boolean status = pService.addNewProduct();
+
+				if (status)
+					System.out.println("Product Added Sucessfully");
+				else
+					System.out.println("Product Not Added");
+			}
+			
+			case 2 -> {
+				System.out.print("Enter pid to delete : ");
+				int pid = scanner.nextInt();
+				
+				boolean status = pService.deleteProduct(pid);
+
+				if (status)
+					System.out.println("Product Deleted Sucessfully");
+				else
+					System.out.println("Product Not Deleted");
+			}
+			
+			case 4 -> {
+				System.out.print("Enter pid to search : ");
+				int pid = scanner.nextInt();
+				
+				Product product = pService.deleteProduct(pid);
+
+				if (status)
+					System.out.println("Product Deleted Sucessfully");
+				else
+					System.out.println("Product Not Deleted");
+			}
+			}
+
+		} while (choice != 8);
+
+	}
+
+}

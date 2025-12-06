@@ -1,0 +1,21 @@
+package com.demo.dao;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class HBUtil {
+	private static SessionFactory sfFactory = null;
+	
+	public static SessionFactory getConnection() {
+		
+		if (sfFactory==null) {
+			sfFactory = new Configuration().configure().buildSessionFactory();
+		}
+		
+		return sfFactory;
+	}
+	
+	public static void closeConnection() {
+		sfFactory.close();
+	}
+}

@@ -1,0 +1,26 @@
+package com.demo.services;
+
+import java.util.Scanner;
+
+import com.demo.dao.ProductDao;
+import com.demo.dao.ProductDaoImpl;
+
+public class ProductServiceImpl implements ProductService{
+	ProductDao pDao = new ProductDaoImpl();
+
+	@Override
+	public boolean addNewProduct() {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("enter Pid : ");
+		int pid = scanner.nextInt();
+		System.out.print("enter Pname : ");
+		String pname = scanner.next();
+		System.out.print("enter Pid : ");
+		int pid = scanner.nextInt();
+		System.out.print("enter Pid : ");
+		int pid = scanner.nextInt();
+		return false;
+	}
+
+}

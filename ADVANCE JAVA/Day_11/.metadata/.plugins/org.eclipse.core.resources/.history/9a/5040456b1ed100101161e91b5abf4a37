@@ -1,0 +1,19 @@
+package com.demo.dao;
+
+import org.hibernate.SessionFactory;
+
+public class CartDaoImpl implements CartDao {
+
+	static private SessionFactory sFactory = null;
+
+	static {
+		sFactory = HBUtil.getConnection();
+	}
+
+	@Override
+	public boolean addToCart(int pid) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

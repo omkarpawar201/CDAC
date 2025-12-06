@@ -1,0 +1,14 @@
+content_assist_autoactivation_triggers_java=.@(\#&$abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="javax.persistence.FetchType"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="javax.persistence.FetchType"/></lhs><lhs name\="com.demo.services.EmployeeService"><rhs name\="com.demo.services.EmployeeServiceImpl"/></lhs><lhs name\="com.demo.services.ProjectService"><rhs name\="com.demo.services.ProjectServiceImpl"/></lhs><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="com.demo.dao.ProjectDao"><rhs name\="com.demo.dao.ProjectDaoImpl"/></lhs><lhs name\="java.time.temporal.Temporal"><rhs name\="java.time.LocalDate"/></lhs><lhs name\="java.time.temporal.TemporalAccessor"><rhs name\="java.time.LocalDate"/></lhs><lhs name\="java.time.temporal.TemporalAdjuster"><rhs name\="java.time.LocalDate"/></lhs><lhs name\="java.time.chrono.ChronoLocalDate"><rhs name\="java.time.LocalDate"/></lhs><lhs name\="com.demo.beans.Project"><rhs name\="com.demo.beans.Project"/></lhs><lhs name\="com.demo.dao.EmployeeDao"><rhs name\="com.demo.dao.EmployeeDaoImpl"/></lhs><lhs name\="com.demo.beans.Employee"><rhs name\="com.demo.beans.Employee"/></lhs><lhs name\="com.demo.services.ProductService"><rhs name\="com.demo.services.ProductServiceImpl"/></lhs><lhs name\="com.demo.services.CartService"><rhs name\="com.demo.services.CartServiceImpl"/></lhs><lhs name\="com.demo.dao.ProductDao"><rhs name\="com.demo.dao.ProductDaoImpl"/></lhs><lhs name\="com.demo.beans.Product"><rhs name\="com.demo.beans.Product"/></lhs><lhs name\="com.demo.dao.CartDao"><rhs name\="com.demo.dao.CartDaoImpl"/></lhs><lhs name\="com.demo.beans.Cart"><rhs name\="com.demo.beans.Cart"/></lhs></history>
+content_assist_number_of_computers=17
+content_assist_proposals_background=52,57,61
+content_assist_proposals_foreground=238,238,238
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=23
+sourceHoverBackgroundColor=30,31,34
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

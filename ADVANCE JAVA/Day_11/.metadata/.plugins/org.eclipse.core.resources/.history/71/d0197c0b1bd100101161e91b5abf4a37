@@ -1,0 +1,15 @@
+package com.demo.dao;
+
+import com.demo.beans.Product;
+
+public class ProductDaoImpl implements ProductDao{
+	
+	
+
+	@Override
+	public boolean addNewProduct(Product product) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

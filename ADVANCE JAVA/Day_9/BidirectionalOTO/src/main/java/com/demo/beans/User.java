@@ -1,0 +1,66 @@
+package com.demo.beans;
+
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
+@Entity
+public class User {
+	@Id
+	private int uid;
+	private String uname;
+	private String mob;
+	@OneToOne(fetch = FetchType.LAZY)
+	private Address address;
+
+	public User() {
+		super();
+	}
+
+	public User(int uid, String uname, String mob, Address address) {
+		super();
+		this.uid = uid;
+		this.uname = uname;
+		this.mob = mob;
+		this.address = address;
+	}
+
+	public int getUid() {
+		return uid;
+	}
+
+	public void setUid(int uid) {
+		this.uid = uid;
+	}
+
+	public String getUname() {
+		return uname;
+	}
+
+	public void setUname(String uname) {
+		this.uname = uname;
+	}
+
+	public String getMob() {
+		return mob;
+	}
+
+	public void setMob(String mob) {
+		this.mob = mob;
+	}
+
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+
+	@Override
+	public String toString() {
+		return "User [uid=" + uid + ", uname=" + uname + ", mob=" + mob + ", addr=" + address + "]";
+	}
+
+}

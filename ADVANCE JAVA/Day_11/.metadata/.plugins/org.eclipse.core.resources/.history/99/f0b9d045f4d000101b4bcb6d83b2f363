@@ -1,0 +1,24 @@
+package com.demo.services;
+
+import java.util.Scanner;
+
+import com.demo.dao.ProjectDao;
+import com.demo.dao.ProjectDaoImpl;
+
+public class ProjectServiceImpl implements ProjectService{
+	ProjectDao pDao = new ProjectDaoImpl();
+
+	@Override
+	public boolean addNewProject() {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Enter Pid : ");
+		int pid = scanner.nextInt();
+		System.out.print("Enter Pname : ");
+		String pname = scanner.next();
+		System.out.print("Enter Pid : ");
+		int pid = scanner.nextInt();
+		return false;
+	}
+
+}

@@ -1,0 +1,61 @@
+package com.demo.test;
+
+import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+
+public class TestEmployeeSave {
+
+	public static void main(String[] args) {
+		SessionFactory sFactory = new Configuration().configure().buildSessionFactory();
+		Session session = sFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+
+		Employee e1 = new Employee(1, "abc", LocalDate.of(2025, 12, 02), 25000);
+		Employee e2 = new Employee(2, "def", LocalDate.of(2023, 10, 15), 35000);
+		Employee e3 = new Employee(3, "ghi", LocalDate.of(2025, 10, 15), 45000);
+		Employee e4 = new Employee(4, "brt", LocalDate.of(2023, 10, 02), 55000);
+
+		Set<Employee> eSet1 = new HashSet<>();
+		eSet1.add(e1);
+		eSet1.add(e2);
+		eSet1.add(e3);
+		
+		Set<Employee> eSet2 = new HashSet<>();
+		eSet2.add(e2);
+		eSet2.add(e3);
+		eSet2.add(e4);
+		
+		Project project1 = new Project(101, "abc", LocalDate.of(2003, 05, 16), eSet1);
+		Project project2 = new Project(102, "def", LocalDate.of(2003, 05, 16), eSet2);
+		Project project3 = new Project(103, "xyz", LocalDate.of(2003, 05, 16), eSet1);
+		Project project4 = new Project(104, "ghi", LocalDate.of(2003, 05, 16), eSet2);
+		
+		Set<Project> pSet1 = new HashSet<>();
+		pSet1.add(project1);
+		pSet1.add(project3);
+		
+		Set<Project> pSet2 = new HashSet<>();
+		pSet2.add(project2);
+		pSet2.add(project4);
+		
+		e1.setpSet(pSet1);
+		e1.setpSet(pSet2);
+		e1.setpSet(pSet1);
+		e1.setpSet(pSet2);
+
+		transaction.commit();
+		session.close();
+		sFactory.close();
+
+	}
+
+}

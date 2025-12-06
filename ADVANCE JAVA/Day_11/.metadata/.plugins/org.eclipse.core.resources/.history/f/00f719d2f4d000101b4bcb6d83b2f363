@@ -1,0 +1,44 @@
+package com.demo.services;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Scanner;
+
+import com.demo.beans.Project;
+import com.demo.dao.ProjectDao;
+import com.demo.dao.ProjectDaoImpl;
+
+public class ProjectServiceImpl implements ProjectService{
+	ProjectDao pDao = new ProjectDaoImpl();
+
+	@Override
+	public boolean addNewProject() {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Enter Pid : ");
+		int pid = scanner.nextInt();
+		System.out.print("Enter Pname : ");
+		String pname = scanner.next();
+		System.out.print("Enter Start Date : ");
+		String date = scanner.next();
+		LocalDate lDate = LocalDate.parse(date, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+		
+		Project project = new Project(pid, pname, lDate);
+		return pDao.addNewProject(project);
+	}
+
+	@Override
+	public boolean addNewEmployee() {
+Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Enter Pid : ");
+		int pid = scanner.nextInt();
+		System.out.print("Enter Pname : ");
+		String pname = scanner.next();
+		System.out.print("Enter Start Date : ");
+		String date = scanner.next();
+		LocalDate lDate = LocalDate.parse(date, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+		return false;
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.demo.test;
+
+public class TestUser {
+	public static void main(String[] args) {
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("springconfig.xml");
+		MyUser u1 = (MyUser) ctx.getBean("u1");
+		System.out.println(u1);
+	}
+}

@@ -1,0 +1,15 @@
+package com.demo.services;
+
+import com.demo.dao.ProductDao;
+import com.demo.dao.ProductDaoImpl;
+
+public class ProductServiceImpl implements ProductService{
+	ProductDao pDao = new ProductDaoImpl();
+
+	@Override
+	public boolean addNewProduct() {
+		
+		return false;
+	}
+
+}

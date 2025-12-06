@@ -1,0 +1,17 @@
+package com.demo.beans;
+
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "product3")
+public class Product {
+	private int pid;
+	private String pname;
+	private int qty;
+	private double price;
+	@
+	Set<Cart> cSet;
+}

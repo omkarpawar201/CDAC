@@ -1,0 +1,24 @@
+package com.demo.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.beans.Product;
+
+public class TestProductSave {
+
+	public static void main(String[] args) {
+		SessionFactory sFactory = new Configuration().configure().buildSessionFactory();
+		Session session = sFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+
+		Product p1 = new Product(1,);
+		
+		transaction.commit();
+		session.close();
+		sFactory.close();
+	}
+
+}

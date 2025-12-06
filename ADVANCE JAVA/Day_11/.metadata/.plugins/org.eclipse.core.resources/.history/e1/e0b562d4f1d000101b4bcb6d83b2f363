@@ -1,0 +1,11 @@
+package com.demo.dao;
+
+import org.hibernate.SessionFactory;
+
+public class HBUtil {
+	private static SessionFactory sfFactory = null;
+	
+	public static SessionFactory getConnection() {
+		return sfFactory;
+	}
+}

@@ -1,0 +1,10 @@
+package com.demo.beans;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Course {
+	private int cid;
+	private String cname;
+	private Faculty faculty;
+}

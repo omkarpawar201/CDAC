@@ -1,0 +1,34 @@
+package com.demo.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.beans.Course;
+import com.demo.beans.Faculty;
+
+public class TestCourseSave {
+
+	public static void main(String[] args) {
+		
+		SessionFactory sFactory = new Configuration().configure().buildSessionFactory();
+		Session session = sFactory.openSession();
+		Transaction  transaction = session.beginTransaction();
+		
+		Faculty faculty1 = new Faculty(1, "abc");
+		Course course1 = new Course(101, "Python", faculty1);
+		faculty1.setCourse(course1);
+		
+		Faculty faculty2 = new Faculty(2, "def");
+		Course course2 = new Course(102, "Java", faculty2);
+		faculty2.setCourse(course2);
+		
+		session.save(course1);
+		session.save(course2);
+		session.save(faculty1);
+		session.save(faculty2);
+
+	}
+
+}

@@ -1,0 +1,95 @@
+package com.demo.dao;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+	static private SessionFactory sFactory = null;
+
+	static {
+		sFactory = HBUtil.getConnection();
+	}
+
+	@Override
+	public boolean addNewEmployee(Employee employee) {
+		Session session = sFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+
+		session.save(employee);
+
+		transaction.commit();
+		session.close();
+		return true;
+	}
+
+	@Override
+	public List<Employee> display() {
+		Session session = sFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+
+		List<Employee> eList = session.createQuery("from Employee", Employee.class).list();
+
+		transaction.commit();
+		session.close();
+		return eList;
+	}
+
+	@Override
+	public boolean deleteEmployee(int id) {
+		Session session = sFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+
+		Employee employee = session.get(Employee.class, id);
+
+		if (employee != null) {
+			session.delete(employee);
+			transaction.commit();
+			session.close();
+			return true;
+		}
+
+		return false;
+	}
+
+	@Override
+	public boolean updateEmployee(int id, double sal) {
+		Session session = sFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+
+		Employee employee = session.get(Employee.class, id);
+
+		if (employee != null) {
+			employee.setSal(sal);
+			session.update(employee);
+			transaction.commit();
+			session.close();
+			return true;
+		}
+
+		return false;
+	}
+
+	@Override
+	public boolean assignEmployeeProject(int eid, int pid) {
+		Session session = sFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+
+		Employee employee = session.get(Employee.class, eid);
+		Project project = session.get(Project.class, pid);
+
+		employee.getpSet().add(project);
+		project.geteSet().add(employee);
+		
+		transaction.commit();
+		session.close();
+
+		return true;
+	}
+
+}

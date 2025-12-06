@@ -1,0 +1,8 @@
+package com.demo.test;
+
+public class TestProduct {
+	Scanner sc = new Scanner(System.in);
+	ApplicationContext ctx = new ClassPathXmlApplicationContext("springconfig.xml");
+	ProductService pservice = (ProductService) ctx.getBean("productServiceImpl");
+	int choice = 0;
+}

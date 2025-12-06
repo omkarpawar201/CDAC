@@ -1,0 +1,11 @@
+package com.demo.dao;
+
+import com.demo.beans.Product;
+
+public interface ProductDao {
+
+	boolean addNewProduct(Product product);
+
+	boolean deleteProduct(int pid);
+
+}

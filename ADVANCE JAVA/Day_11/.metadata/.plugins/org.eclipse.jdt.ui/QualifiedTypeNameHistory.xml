@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.ExceptionInInitializerError"/>
+    <fullyQualifiedTypeName name="com.demo.services.EmployeeService"/>
+    <fullyQualifiedTypeName name="com.demo.services.EmployeeServiceImpl"/>
+    <fullyQualifiedTypeName name="com.demo.services.ProjectService"/>
+    <fullyQualifiedTypeName name="com.demo.services.ProjectServiceImpl"/>
+    <fullyQualifiedTypeName name="javax.persistence.criteria.CriteriaBuilder.Case"/>
+    <fullyQualifiedTypeName name="com.demo.dao.ProjectDao"/>
+    <fullyQualifiedTypeName name="com.demo.dao.ProjectDaoImpl"/>
+    <fullyQualifiedTypeName name="org.hibernate.cfg.annotations.NamedEntityGraphDefinition"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="com.demo.dao.EmployeeDao"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.or.sax.AttributesRenderer"/>
+    <fullyQualifiedTypeName name="com.demo.beans.Project"/>
+    <fullyQualifiedTypeName name="com.demo.dao.EmployeeDaoImpl"/>
+    <fullyQualifiedTypeName name="com.demo.beans.Employee"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+    <fullyQualifiedTypeName name="com.demo.services.ProductService"/>
+    <fullyQualifiedTypeName name="com.demo.services.ProductServiceImpl"/>
+    <fullyQualifiedTypeName name="com.demo.services.CartServiceImpl"/>
+    <fullyQualifiedTypeName name="com.demo.dao.ProductDao"/>
+    <fullyQualifiedTypeName name="com.demo.dao.ProductDaoImpl"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="com.demo.dao.HBUtil"/>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.security.PrivateKey"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="com.demo.services.CartService"/>
+    <fullyQualifiedTypeName name="com.demo.dao.CartDao"/>
+    <fullyQualifiedTypeName name="com.demo.dao.CartDaoImpl"/>
+    <fullyQualifiedTypeName name="com.demo.beans.Cart"/>
+    <fullyQualifiedTypeName name="com.demo.beans.Product"/>
+</qualifiedTypeNameHistroy>

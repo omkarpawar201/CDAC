@@ -1,0 +1,20 @@
+package com.demo.dao;
+
+import org.hibernate.SessionFactory;
+
+import com.demo.beans.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+	static private SessionFactory sFactory = null;
+
+	static {
+		sFactory = HBUtil.getConnection();
+	}
+
+	@Override
+	public boolean addNewEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

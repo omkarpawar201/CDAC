@@ -1,0 +1,65 @@
+package com.demo.beans;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "cart1")
+public class Cart {
+	@Id
+	@GeneratedValue
+	private int cid;
+	private double total_amt;
+	@ManyToMany
+	List<Product> pList;
+
+	public Cart() {
+		super();
+	}
+
+	public Cart(double total_amt, List<Product> pList) {
+		super();
+		this.pList = pList;
+		this.total_amt = total_amt;
+	}
+
+	public Cart(double total_amt) {
+		super();
+		this.total_amt = total_amt;
+	}
+
+	public double getTotal_amt() {
+		return total_amt;
+	}
+
+	public void setTotal_amt(double total_amt) {
+		this.total_amt = total_amt;
+	}
+
+	public int getCid() {
+		return cid;
+	}
+
+	public void setCid(int cid) {
+		this.cid = cid;
+	}
+
+	public List<Product> getpList() {
+		return pList;
+	}
+
+	public void setpList(List<Product> pList) {
+		this.pList = pList;
+	}
+
+	@Override
+	public String toString() {
+		return "Cart [cid=" + cid + ", total_amt=" + total_amt + "]";
+	}
+
+}

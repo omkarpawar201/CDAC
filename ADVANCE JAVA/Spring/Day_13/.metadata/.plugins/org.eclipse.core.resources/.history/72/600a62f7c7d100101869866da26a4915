@@ -1,0 +1,12 @@
+package com.demo.config;
+
+@Configuration
+@PropertySource("data.properties")
+public class Configuration {
+	@Bean 
+	public PropertySourcesPlaceholderConfigurer getPlaceHolder() {
+		System.out.println("in getPlaceHolder");
+		PropertySourcesPlaceholderConfigurer placeholder=new PropertySourcesPlaceholderConfigurer();
+		return placeholder;
+	}
+}

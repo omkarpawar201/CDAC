@@ -1,0 +1,12 @@
+package com.demo.test;
+
+public class TestPlaceholder {
+
+	public static void main(String[] args) {
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("springconfig.xml");
+		Product p = (Product) ctx.getBean("p1");
+		System.out.println(p);
+
+	}
+
+}

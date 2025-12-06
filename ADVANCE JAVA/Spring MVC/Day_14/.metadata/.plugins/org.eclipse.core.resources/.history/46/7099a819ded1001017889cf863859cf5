@@ -1,0 +1,13 @@
+package com.demo.test;
+
+import java.util.Locale;
+
+public class TestLocalization {
+
+	public static void main(String[] args) {
+		Locale locale = Locale.ENGLISH;
+		System.out.println("Country name :" + locale.getCountry() + "language: " + locale.getLanguage());
+
+	}
+
+}

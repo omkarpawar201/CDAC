@@ -1,0 +1,36 @@
+package com.demo.dao;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+import com.demo.beans.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+	static private SessionFactory sFactory = null;
+
+	static {
+		sFactory = HBUtil.getConnection();
+	}
+
+	@Override
+	public boolean addNewEmployee(Employee employee) {
+		Session session = sFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+
+		session.save(employee);
+
+		transaction.commit();
+		session.close();
+		return true;
+	}
+
+	@Override
+	public List<Employee> display() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

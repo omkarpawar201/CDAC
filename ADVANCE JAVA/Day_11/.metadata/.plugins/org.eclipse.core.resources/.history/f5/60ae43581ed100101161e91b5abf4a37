@@ -1,0 +1,11 @@
+package com.demo.dao;
+
+public class CartDaoImpl implements CartDao{
+
+	@Override
+	public boolean addToCart(int pid) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

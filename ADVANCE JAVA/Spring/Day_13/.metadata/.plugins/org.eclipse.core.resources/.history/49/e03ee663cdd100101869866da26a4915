@@ -1,0 +1,19 @@
+package com.demo.test;
+
+import java.util.Scanner;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.demo.service.ProductService;
+
+public class TestProduct {
+	Scanner sc = new Scanner(System.in);
+	ApplicationContext ctx = new ClassPathXmlApplicationContext("springconfig.xml");
+	ProductService pservice = (ProductService) ctx.getBean("productServiceImpl");
+	int choice = 0;
+	
+	do {
+		
+	}while(choice != 8);
+}

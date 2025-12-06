@@ -1,0 +1,108 @@
+package com.demo.test;
+
+import java.util.List;
+import java.util.Scanner;
+
+import com.demo.beans.Employee;
+import com.demo.dao.HBUtil;
+import com.demo.services.EmployeeService;
+import com.demo.services.EmployeeServiceImpl;
+import com.demo.services.ProjectService;
+import com.demo.services.ProjectServiceImpl;
+
+public class TestEmployeeManagement {
+
+	public static void main(String[] args) {
+		EmployeeService eService = new EmployeeServiceImpl();
+		ProjectService pService = new ProjectServiceImpl();
+		Scanner scanner = new Scanner(System.in);
+		int choice = 0;
+
+		do {
+			System.out.println("1. Add project");
+			System.out.println("2. Add Employees");
+			System.out.println("3. show all employees");
+			System.out.println("4. delete employee");
+			System.out.println("5. update Employees salary");
+			System.out.println("6. Add employee in existing project");
+			System.out.println("7. display employee in sorted order");
+			System.out.println("8. exit");
+			System.out.print("Enter your choice : ");
+			choice = scanner.nextInt();
+
+			switch (choice) {
+			case 1 -> {
+				boolean status = pService.addNewProject();
+
+				if (status)
+					System.out.println("Project Added Sucessfully");
+				else
+					System.out.println("Project Not Added");
+			}
+
+			case 2 -> {
+				boolean status = eService.addNewEmployee();
+
+				if (status)
+					System.out.println("Employee Added Sucessfully");
+				else
+					System.out.println("Employee Not Added");
+			}
+
+			case 3 -> {
+				List<Employee> eList = eService.display();
+				eList.forEach(System.out::println);
+			}
+
+			case 4 -> {
+				System.out.print("Enter id to delete : ");
+				int id = scanner.nextInt();
+
+				boolean status = eService.deleteEmployee(id);
+
+				if (status)
+					System.out.println("Employee Deleted Sucessfully");
+				else
+					System.out.println("Employee Not Deleted");
+			}
+
+			case 5 -> {
+				System.out.print("Enter eid : ");
+				int eid = scanner.nextInt();
+				System.out.print("Enter pid : ");
+				int pid = scanner.nextInt();
+
+				boolean status = eService.updateEmployee(id, sal);
+
+				if (status)
+					System.out.println("Employee Updated Sucessfully");
+				else
+					System.out.println("Employee Not Updated");
+			}
+			
+			case 6 -> {
+				System.out.print("Enter id to update : ");
+				int id = scanner.nextInt();
+				System.out.print("Enter new salary : ");
+				double sal = scanner.nextDouble();
+
+				boolean status = eService.updateEmployee(id, sal);
+
+				if (status)
+					System.out.println("Employee Updated Sucessfully");
+				else
+					System.out.println("Employee Not Updated");
+			}
+
+			case 8 -> {
+				System.out.println("Thank you...");
+				scanner.close();
+				HBUtil.closeConnection();
+			}
+			}
+
+		} while (choice != 8);
+
+	}
+
+}
