@@ -15,35 +15,28 @@ import com.demo.beans.MyUser;
 import com.demo.service.LoginService;
 import com.demo.service.LoginServiceImpl;
 
-
-
 @WebServlet("/validateuser")
-public class LoginServlet extends HttpServlet{
-     public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
-    	 response.setContentType("text/html");
-    	 PrintWriter out =response.getWriter();
-    	 String uname=request.getParameter("uname");
-    	 String pass= request.getParameter("pass");
-    	 LoginService lservice= new LoginServiceImpl();
-    	 MyUser user=lservice.validateUser(uname,pass);
-    	 
-    	 
-    	 if(user != null)
-    	 {
-    	 //store user in session
-    	 HttpSession session= request.getSession();
-    	 session.setAttribute("user",user);
-    	 RequestDispatcher rd =request.getRequestDispatcher("category");
-    	 rd.forward(request, response);
-    	 }else
-    	 {
-    		out.println("<h5>Invalid credential</h5>");
-    		RequestDispatcher rd =request.getRequestDispatcher("Login.html");
-       	    rd.include(request, response);
-       	    
-    		
-    	 }
-    	 
-    	 
-     }
+public class LoginServlet extends HttpServlet {
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		String uname = request.getParameter("uname");
+		String pass = request.getParameter("pass");
+		LoginService lservice = new LoginServiceImpl();
+		MyUser user = lservice.validateUser(uname, pass);
+
+		if (user != null) {
+			// store user in session
+			HttpSession session = request.getSession();
+			session.setAttribute("user", user);
+			RequestDispatcher rd = request.getRequestDispatcher("category");
+			rd.forward(request, response);
+		} else {
+			out.println("<h5>Invalid credential</h5>");
+			RequestDispatcher rd = request.getRequestDispatcher("Login.html");
+			rd.include(request, response);
+
+		}
+
+	}
 }
