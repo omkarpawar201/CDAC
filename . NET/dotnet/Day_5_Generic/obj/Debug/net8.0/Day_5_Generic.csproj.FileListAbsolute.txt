@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_5_Generic\bin\Debug\net8.0\Day_5_Generic.exe
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_5_Generic\bin\Debug\net8.0\Day_5_Generic.deps.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_5_Generic\bin\Debug\net8.0\Day_5_Generic.runtimeconfig.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_5_Generic\bin\Debug\net8.0\Day_5_Generic.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_5_Generic\bin\Debug\net8.0\Day_5_Generic.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_5_Generic\obj\Debug\net8.0\Day_5_Generic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_5_Generic\obj\Debug\net8.0\Day_5_Generic.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_5_Generic\obj\Debug\net8.0\Day_5_Generic.AssemblyInfo.cs
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_5_Generic\obj\Debug\net8.0\Day_5_Generic.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_5_Generic\obj\Debug\net8.0\Day_5_Generic.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_5_Generic\obj\Debug\net8.0\refint\Day_5_Generic.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_5_Generic\obj\Debug\net8.0\Day_5_Generic.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_5_Generic\obj\Debug\net8.0\Day_5_Generic.genruntimeconfig.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_5_Generic\obj\Debug\net8.0\ref\Day_5_Generic.dll

@@ -1,0 +1,11 @@
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_WindowsFormsApp\bin\Debug\Day_4_WindowsFormsApp.exe.config
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_WindowsFormsApp\bin\Debug\Day_4_WindowsFormsApp.exe
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_WindowsFormsApp\bin\Debug\Day_4_WindowsFormsApp.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_WindowsFormsApp\obj\Debug\Day_4_WindowsFormsApp.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_WindowsFormsApp\obj\Debug\Day_4_WindowsFormsApp.Properties.Resources.resources
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_WindowsFormsApp\obj\Debug\Day_4_WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_WindowsFormsApp\obj\Debug\Day_4_WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_WindowsFormsApp\obj\Debug\Day_4_WindowsFormsApp.exe
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_WindowsFormsApp\obj\Debug\Day_4_WindowsFormsApp.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_WindowsFormsApp\obj\Debug\Day_4_WindowsFormsApp.exe.config
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_WindowsFormsApp\obj\Debug\Day_4_WindowsFormsApp.Form1.resources

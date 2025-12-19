@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_MultiCastDelegate\bin\Debug\net8.0\Day_4_MultiCastDelegate.exe
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_MultiCastDelegate\bin\Debug\net8.0\Day_4_MultiCastDelegate.deps.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_MultiCastDelegate\bin\Debug\net8.0\Day_4_MultiCastDelegate.runtimeconfig.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_MultiCastDelegate\bin\Debug\net8.0\Day_4_MultiCastDelegate.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_MultiCastDelegate\bin\Debug\net8.0\Day_4_MultiCastDelegate.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_MultiCastDelegate\obj\Debug\net8.0\Day_4_MultiCastDelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_MultiCastDelegate\obj\Debug\net8.0\Day_4_MultiCastDelegate.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_MultiCastDelegate\obj\Debug\net8.0\Day_4_MultiCastDelegate.AssemblyInfo.cs
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_MultiCastDelegate\obj\Debug\net8.0\Day_4_MultiCastDelegate.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_MultiCastDelegate\obj\Debug\net8.0\Day_4_MultiCastDelegate.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_MultiCastDelegate\obj\Debug\net8.0\refint\Day_4_MultiCastDelegate.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_MultiCastDelegate\obj\Debug\net8.0\Day_4_MultiCastDelegate.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_MultiCastDelegate\obj\Debug\net8.0\Day_4_MultiCastDelegate.genruntimeconfig.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_MultiCastDelegate\obj\Debug\net8.0\ref\Day_4_MultiCastDelegate.dll

@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ObserverPattern\bin\Debug\net8.0\Day_5_ObserverPattern.exe
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ObserverPattern\bin\Debug\net8.0\Day_5_ObserverPattern.deps.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ObserverPattern\bin\Debug\net8.0\Day_5_ObserverPattern.runtimeconfig.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ObserverPattern\bin\Debug\net8.0\Day_5_ObserverPattern.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ObserverPattern\bin\Debug\net8.0\Day_5_ObserverPattern.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ObserverPattern\obj\Debug\net8.0\Day_5_ObserverPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ObserverPattern\obj\Debug\net8.0\Day_5_ObserverPattern.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ObserverPattern\obj\Debug\net8.0\Day_5_ObserverPattern.AssemblyInfo.cs
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ObserverPattern\obj\Debug\net8.0\Day_5_ObserverPattern.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ObserverPattern\obj\Debug\net8.0\Day_5_ObserverPattern.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ObserverPattern\obj\Debug\net8.0\refint\Day_5_ObserverPattern.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ObserverPattern\obj\Debug\net8.0\Day_5_ObserverPattern.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ObserverPattern\obj\Debug\net8.0\Day_5_ObserverPattern.genruntimeconfig.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ObserverPattern\obj\Debug\net8.0\ref\Day_5_ObserverPattern.dll
