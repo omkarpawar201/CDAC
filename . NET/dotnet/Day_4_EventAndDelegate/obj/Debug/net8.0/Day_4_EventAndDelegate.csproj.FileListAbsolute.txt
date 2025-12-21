@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_EventAndDelegate\bin\Debug\net8.0\Day_4_EventAndDelegate.exe
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_EventAndDelegate\bin\Debug\net8.0\Day_4_EventAndDelegate.deps.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_EventAndDelegate\bin\Debug\net8.0\Day_4_EventAndDelegate.runtimeconfig.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_EventAndDelegate\bin\Debug\net8.0\Day_4_EventAndDelegate.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_EventAndDelegate\bin\Debug\net8.0\Day_4_EventAndDelegate.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_EventAndDelegate\obj\Debug\net8.0\Day_4_EventAndDelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_EventAndDelegate\obj\Debug\net8.0\Day_4_EventAndDelegate.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_EventAndDelegate\obj\Debug\net8.0\Day_4_EventAndDelegate.AssemblyInfo.cs
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_EventAndDelegate\obj\Debug\net8.0\Day_4_EventAndDelegate.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_EventAndDelegate\obj\Debug\net8.0\Day_4_EventAndDelegate.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_EventAndDelegate\obj\Debug\net8.0\refint\Day_4_EventAndDelegate.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_EventAndDelegate\obj\Debug\net8.0\Day_4_EventAndDelegate.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_EventAndDelegate\obj\Debug\net8.0\Day_4_EventAndDelegate.genruntimeconfig.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_EventAndDelegate\obj\Debug\net8.0\ref\Day_4_EventAndDelegate.dll

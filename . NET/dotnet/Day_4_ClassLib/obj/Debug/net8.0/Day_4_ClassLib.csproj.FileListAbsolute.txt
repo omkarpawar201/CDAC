@@ -1,0 +1,11 @@
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ClassLib\bin\Debug\net8.0\Day_4_ClassLib.deps.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ClassLib\bin\Debug\net8.0\Day_4_ClassLib.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ClassLib\bin\Debug\net8.0\Day_4_ClassLib.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ClassLib\obj\Debug\net8.0\Day_4_ClassLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ClassLib\obj\Debug\net8.0\Day_4_ClassLib.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ClassLib\obj\Debug\net8.0\Day_4_ClassLib.AssemblyInfo.cs
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ClassLib\obj\Debug\net8.0\Day_4_ClassLib.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ClassLib\obj\Debug\net8.0\Day_4_ClassLib.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ClassLib\obj\Debug\net8.0\refint\Day_4_ClassLib.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ClassLib\obj\Debug\net8.0\Day_4_ClassLib.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_4_ClassLib\obj\Debug\net8.0\ref\Day_4_ClassLib.dll
