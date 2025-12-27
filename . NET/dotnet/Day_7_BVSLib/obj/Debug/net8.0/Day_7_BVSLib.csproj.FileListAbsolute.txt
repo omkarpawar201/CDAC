@@ -1,0 +1,11 @@
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_BVSLib\bin\Debug\net8.0\Day_7_BVSLib.deps.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_BVSLib\bin\Debug\net8.0\Day_7_BVSLib.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_BVSLib\bin\Debug\net8.0\Day_7_BVSLib.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_BVSLib\obj\Debug\net8.0\Day_7_BVSLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_BVSLib\obj\Debug\net8.0\Day_7_BVSLib.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_BVSLib\obj\Debug\net8.0\Day_7_BVSLib.AssemblyInfo.cs
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_BVSLib\obj\Debug\net8.0\Day_7_BVSLib.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_BVSLib\obj\Debug\net8.0\Day_7_BVSLib.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_BVSLib\obj\Debug\net8.0\refint\Day_7_BVSLib.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_BVSLib\obj\Debug\net8.0\Day_7_BVSLib.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_BVSLib\obj\Debug\net8.0\ref\Day_7_BVSLib.dll

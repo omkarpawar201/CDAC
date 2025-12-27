@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_8_LINQ\bin\Debug\net8.0\Day_8_LINQ.exe
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_8_LINQ\bin\Debug\net8.0\Day_8_LINQ.deps.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_8_LINQ\bin\Debug\net8.0\Day_8_LINQ.runtimeconfig.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_8_LINQ\bin\Debug\net8.0\Day_8_LINQ.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_8_LINQ\bin\Debug\net8.0\Day_8_LINQ.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_8_LINQ\obj\Debug\net8.0\Day_8_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_8_LINQ\obj\Debug\net8.0\Day_8_LINQ.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_8_LINQ\obj\Debug\net8.0\Day_8_LINQ.AssemblyInfo.cs
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_8_LINQ\obj\Debug\net8.0\Day_8_LINQ.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_8_LINQ\obj\Debug\net8.0\Day_8_LINQ.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_8_LINQ\obj\Debug\net8.0\refint\Day_8_LINQ.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_8_LINQ\obj\Debug\net8.0\Day_8_LINQ.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_8_LINQ\obj\Debug\net8.0\Day_8_LINQ.genruntimeconfig.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_8_LINQ\obj\Debug\net8.0\ref\Day_8_LINQ.dll

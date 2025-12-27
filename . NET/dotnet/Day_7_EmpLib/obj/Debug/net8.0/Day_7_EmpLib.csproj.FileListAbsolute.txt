@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\bin\Debug\net8.0\Day_7_EmpLib.deps.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\bin\Debug\net8.0\Day_7_EmpLib.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\bin\Debug\net8.0\Day_7_EmpLib.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\bin\Debug\net8.0\Day_7_BVSLib.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\bin\Debug\net8.0\Day_7_BVSLib.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\obj\Debug\net8.0\Day_7_EmpLib.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\obj\Debug\net8.0\Day_7_EmpLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\obj\Debug\net8.0\Day_7_EmpLib.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\obj\Debug\net8.0\Day_7_EmpLib.AssemblyInfo.cs
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\obj\Debug\net8.0\Day_7_EmpLib.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\obj\Debug\net8.0\Day_7_Em.53EDA207.Up2Date
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\obj\Debug\net8.0\Day_7_EmpLib.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\obj\Debug\net8.0\refint\Day_7_EmpLib.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\obj\Debug\net8.0\Day_7_EmpLib.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_EmpLib\obj\Debug\net8.0\ref\Day_7_EmpLib.dll

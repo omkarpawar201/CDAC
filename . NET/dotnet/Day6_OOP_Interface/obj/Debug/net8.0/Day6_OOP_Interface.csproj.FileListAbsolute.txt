@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_OOP_Interface\bin\Debug\net8.0\Day6_OOP_Interface.exe
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_OOP_Interface\bin\Debug\net8.0\Day6_OOP_Interface.deps.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_OOP_Interface\bin\Debug\net8.0\Day6_OOP_Interface.runtimeconfig.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_OOP_Interface\bin\Debug\net8.0\Day6_OOP_Interface.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_OOP_Interface\bin\Debug\net8.0\Day6_OOP_Interface.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_OOP_Interface\obj\Debug\net8.0\Day6_OOP_Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_OOP_Interface\obj\Debug\net8.0\Day6_OOP_Interface.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_OOP_Interface\obj\Debug\net8.0\Day6_OOP_Interface.AssemblyInfo.cs
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_OOP_Interface\obj\Debug\net8.0\Day6_OOP_Interface.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_OOP_Interface\obj\Debug\net8.0\Day6_OOP_Interface.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_OOP_Interface\obj\Debug\net8.0\refint\Day6_OOP_Interface.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_OOP_Interface\obj\Debug\net8.0\Day6_OOP_Interface.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_OOP_Interface\obj\Debug\net8.0\Day6_OOP_Interface.genruntimeconfig.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_OOP_Interface\obj\Debug\net8.0\ref\Day6_OOP_Interface.dll

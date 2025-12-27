@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Day_7_BVSLib\Day_7_BVSLib.csproj" />
+    <ProjectReference Include="..\Day_7_CustomAttributes\Day_7_CustomAttributes.csproj" />
+  </ItemGroup>
+
+</Project>

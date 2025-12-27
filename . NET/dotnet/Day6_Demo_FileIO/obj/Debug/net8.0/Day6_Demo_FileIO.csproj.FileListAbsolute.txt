@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_Demo_FileIO\bin\Debug\net8.0\Day6_Demo_FileIO.exe
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_Demo_FileIO\bin\Debug\net8.0\Day6_Demo_FileIO.deps.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_Demo_FileIO\bin\Debug\net8.0\Day6_Demo_FileIO.runtimeconfig.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_Demo_FileIO\bin\Debug\net8.0\Day6_Demo_FileIO.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_Demo_FileIO\bin\Debug\net8.0\Day6_Demo_FileIO.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_Demo_FileIO\obj\Debug\net8.0\Day6_Demo_FileIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_Demo_FileIO\obj\Debug\net8.0\Day6_Demo_FileIO.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_Demo_FileIO\obj\Debug\net8.0\Day6_Demo_FileIO.AssemblyInfo.cs
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_Demo_FileIO\obj\Debug\net8.0\Day6_Demo_FileIO.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_Demo_FileIO\obj\Debug\net8.0\Day6_Demo_FileIO.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_Demo_FileIO\obj\Debug\net8.0\refint\Day6_Demo_FileIO.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_Demo_FileIO\obj\Debug\net8.0\Day6_Demo_FileIO.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_Demo_FileIO\obj\Debug\net8.0\Day6_Demo_FileIO.genruntimeconfig.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day6_Demo_FileIO\obj\Debug\net8.0\ref\Day6_Demo_FileIO.dll

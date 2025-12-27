@@ -1,0 +1,11 @@
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_CustomAttributes\bin\Debug\net8.0\Day_7_CustomAttributes.deps.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_CustomAttributes\bin\Debug\net8.0\Day_7_CustomAttributes.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_CustomAttributes\bin\Debug\net8.0\Day_7_CustomAttributes.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_CustomAttributes\obj\Debug\net8.0\Day_7_CustomAttributes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_CustomAttributes\obj\Debug\net8.0\Day_7_CustomAttributes.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_CustomAttributes\obj\Debug\net8.0\Day_7_CustomAttributes.AssemblyInfo.cs
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_CustomAttributes\obj\Debug\net8.0\Day_7_CustomAttributes.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_CustomAttributes\obj\Debug\net8.0\Day_7_CustomAttributes.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_CustomAttributes\obj\Debug\net8.0\refint\Day_7_CustomAttributes.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_CustomAttributes\obj\Debug\net8.0\Day_7_CustomAttributes.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_7_CustomAttributes\obj\Debug\net8.0\ref\Day_7_CustomAttributes.dll

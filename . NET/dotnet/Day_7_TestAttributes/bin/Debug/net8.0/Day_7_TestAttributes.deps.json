@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Day_7_TestAttributes/1.0.0": {
+        "dependencies": {
+          "Day_7_BVSLib": "1.0.0"
+        },
+        "runtime": {
+          "Day_7_TestAttributes.dll": {}
+        }
+      },
+      "Day_7_BVSLib/1.0.0": {
+        "runtime": {
+          "Day_7_BVSLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Day_7_TestAttributes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Day_7_BVSLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
