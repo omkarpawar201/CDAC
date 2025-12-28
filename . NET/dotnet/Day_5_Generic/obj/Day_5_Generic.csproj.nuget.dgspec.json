@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_5_Generic\\Day_5_Generic.csproj": {}
+    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_5_Generic\\Day_5_Generic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_5_Generic\\Day_5_Generic.csproj": {
+    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_5_Generic\\Day_5_Generic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_5_Generic\\Day_5_Generic.csproj",
+        "projectUniqueName": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_5_Generic\\Day_5_Generic.csproj",
         "projectName": "Day_5_Generic",
-        "projectPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_5_Generic\\Day_5_Generic.csproj",
-        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_5_Generic\\obj\\",
+        "projectPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_5_Generic\\Day_5_Generic.csproj",
+        "packagesPath": "C:\\Users\\omkar\\.nuget\\packages\\",
+        "outputPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_5_Generic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

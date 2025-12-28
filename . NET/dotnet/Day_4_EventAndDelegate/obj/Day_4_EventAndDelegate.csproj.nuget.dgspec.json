@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_EventAndDelegate\\Day_4_EventAndDelegate.csproj": {}
+    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_EventAndDelegate\\Day_4_EventAndDelegate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_EventAndDelegate\\Day_4_EventAndDelegate.csproj": {
+    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_EventAndDelegate\\Day_4_EventAndDelegate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_EventAndDelegate\\Day_4_EventAndDelegate.csproj",
+        "projectUniqueName": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_EventAndDelegate\\Day_4_EventAndDelegate.csproj",
         "projectName": "Day_4_EventAndDelegate",
-        "projectPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_EventAndDelegate\\Day_4_EventAndDelegate.csproj",
-        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_EventAndDelegate\\obj\\",
+        "projectPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_EventAndDelegate\\Day_4_EventAndDelegate.csproj",
+        "packagesPath": "C:\\Users\\omkar\\.nuget\\packages\\",
+        "outputPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_EventAndDelegate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

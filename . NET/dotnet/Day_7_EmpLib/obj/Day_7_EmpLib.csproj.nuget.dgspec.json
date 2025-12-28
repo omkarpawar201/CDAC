@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_EmpLib\\Day_7_EmpLib.csproj": {}
+    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_EmpLib\\Day_7_EmpLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_BVSLib\\Day_7_BVSLib.csproj": {
+    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_BVSLib\\Day_7_BVSLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_BVSLib\\Day_7_BVSLib.csproj",
+        "projectUniqueName": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_BVSLib\\Day_7_BVSLib.csproj",
         "projectName": "Day_7_BVSLib",
-        "projectPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_BVSLib\\Day_7_BVSLib.csproj",
-        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_BVSLib\\obj\\",
+        "projectPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_BVSLib\\Day_7_BVSLib.csproj",
+        "packagesPath": "C:\\Users\\omkar\\.nuget\\packages\\",
+        "outputPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_BVSLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -69,20 +69,20 @@
         }
       }
     },
-    "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_CustomAttributes\\Day_7_CustomAttributes.csproj": {
+    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_CustomAttributes\\Day_7_CustomAttributes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_CustomAttributes\\Day_7_CustomAttributes.csproj",
+        "projectUniqueName": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_CustomAttributes\\Day_7_CustomAttributes.csproj",
         "projectName": "Day_7_CustomAttributes",
-        "projectPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_CustomAttributes\\Day_7_CustomAttributes.csproj",
-        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_CustomAttributes\\obj\\",
+        "projectPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_CustomAttributes\\Day_7_CustomAttributes.csproj",
+        "packagesPath": "C:\\Users\\omkar\\.nuget\\packages\\",
+        "outputPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_CustomAttributes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -134,20 +134,20 @@
         }
       }
     },
-    "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_EmpLib\\Day_7_EmpLib.csproj": {
+    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_EmpLib\\Day_7_EmpLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_EmpLib\\Day_7_EmpLib.csproj",
+        "projectUniqueName": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_EmpLib\\Day_7_EmpLib.csproj",
         "projectName": "Day_7_EmpLib",
-        "projectPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_EmpLib\\Day_7_EmpLib.csproj",
-        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_EmpLib\\obj\\",
+        "projectPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_EmpLib\\Day_7_EmpLib.csproj",
+        "packagesPath": "C:\\Users\\omkar\\.nuget\\packages\\",
+        "outputPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_EmpLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -162,11 +162,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_BVSLib\\Day_7_BVSLib.csproj": {
-                "projectPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_BVSLib\\Day_7_BVSLib.csproj"
+              "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_BVSLib\\Day_7_BVSLib.csproj": {
+                "projectPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_BVSLib\\Day_7_BVSLib.csproj"
               },
-              "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_CustomAttributes\\Day_7_CustomAttributes.csproj": {
-                "projectPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_CustomAttributes\\Day_7_CustomAttributes.csproj"
+              "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_CustomAttributes\\Day_7_CustomAttributes.csproj": {
+                "projectPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_CustomAttributes\\Day_7_CustomAttributes.csproj"
               }
             }
           }

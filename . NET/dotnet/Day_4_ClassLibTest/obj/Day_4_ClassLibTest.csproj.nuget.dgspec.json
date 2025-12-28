@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_ClassLibTest\\Day_4_ClassLibTest.csproj": {}
+    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_ClassLibTest\\Day_4_ClassLibTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_ClassLibTest\\Day_4_ClassLibTest.csproj": {
+    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_ClassLibTest\\Day_4_ClassLibTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_ClassLibTest\\Day_4_ClassLibTest.csproj",
+        "projectUniqueName": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_ClassLibTest\\Day_4_ClassLibTest.csproj",
         "projectName": "Day_4_ClassLibTest",
-        "projectPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_ClassLibTest\\Day_4_ClassLibTest.csproj",
-        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_ClassLibTest\\obj\\",
+        "projectPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_ClassLibTest\\Day_4_ClassLibTest.csproj",
+        "packagesPath": "C:\\Users\\omkar\\.nuget\\packages\\",
+        "outputPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_ClassLibTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_ClassLib\\Day_4_ClassLib.csproj": {
-                "projectPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_ClassLib\\Day_4_ClassLib.csproj"
+              "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_ClassLib\\Day_4_ClassLib.csproj": {
+                "projectPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_ClassLib\\Day_4_ClassLib.csproj"
               }
             }
           }
@@ -73,20 +73,20 @@
         }
       }
     },
-    "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_ClassLib\\Day_4_ClassLib.csproj": {
+    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_ClassLib\\Day_4_ClassLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_ClassLib\\Day_4_ClassLib.csproj",
+        "projectUniqueName": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_ClassLib\\Day_4_ClassLib.csproj",
         "projectName": "Day_4_ClassLib",
-        "projectPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_ClassLib\\Day_4_ClassLib.csproj",
-        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_4_ClassLib\\obj\\",
+        "projectPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_ClassLib\\Day_4_ClassLib.csproj",
+        "packagesPath": "C:\\Users\\omkar\\.nuget\\packages\\",
+        "outputPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_4_ClassLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

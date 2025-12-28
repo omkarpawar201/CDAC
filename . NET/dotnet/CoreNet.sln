@@ -61,6 +61,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day_9_LINQ_2", "Day_9_LINQ_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day_9_ConnectedAdoNet", "Day_9_ConnectedAdoNet\Day_9_ConnectedAdoNet.csproj", "{8162EF9F-10D3-4856-AEDA-040F11C8F4FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day_9_ConnectedEmployeeManagement", "Day_9_ConnectedEmployeeManagement\Day_9_ConnectedEmployeeManagement.csproj", "{B32ADA3A-DECB-4E8C-A587-B21021BFCB7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day_9_AdoLoginSystem", "Day_9_AdoLoginSystem\Day_9_AdoLoginSystem.csproj", "{D7634F3D-0984-45AB-838C-0DAC0AB05D83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +187,14 @@ Global
 		{8162EF9F-10D3-4856-AEDA-040F11C8F4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8162EF9F-10D3-4856-AEDA-040F11C8F4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8162EF9F-10D3-4856-AEDA-040F11C8F4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32ADA3A-DECB-4E8C-A587-B21021BFCB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32ADA3A-DECB-4E8C-A587-B21021BFCB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32ADA3A-DECB-4E8C-A587-B21021BFCB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32ADA3A-DECB-4E8C-A587-B21021BFCB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7634F3D-0984-45AB-838C-0DAC0AB05D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7634F3D-0984-45AB-838C-0DAC0AB05D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7634F3D-0984-45AB-838C-0DAC0AB05D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7634F3D-0984-45AB-838C-0DAC0AB05D83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

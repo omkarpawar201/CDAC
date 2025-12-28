@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_BVSLib\\Day_7_BVSLib.csproj": {}
+    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_BVSLib\\Day_7_BVSLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_BVSLib\\Day_7_BVSLib.csproj": {
+    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_BVSLib\\Day_7_BVSLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_BVSLib\\Day_7_BVSLib.csproj",
+        "projectUniqueName": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_BVSLib\\Day_7_BVSLib.csproj",
         "projectName": "Day_7_BVSLib",
-        "projectPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_BVSLib\\Day_7_BVSLib.csproj",
-        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_7_BVSLib\\obj\\",
+        "projectPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_BVSLib\\Day_7_BVSLib.csproj",
+        "packagesPath": "C:\\Users\\omkar\\.nuget\\packages\\",
+        "outputPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_7_BVSLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

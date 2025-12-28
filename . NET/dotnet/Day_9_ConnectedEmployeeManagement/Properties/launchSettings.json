@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Day_9_ConnectedEmployeeManagement": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

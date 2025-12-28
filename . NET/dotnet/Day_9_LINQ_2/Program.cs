@@ -75,20 +75,20 @@
             #endregion
 
             #region LINQ with Tuple syntax
-            // Demonstrates projecting results into a tuple instead of full objects
-            //Console.WriteLine("Enter the role : ");
-            //string role = Console.ReadLine().ToLower();
+            //Demonstrates projecting results into a tuple instead of full objects
+            Console.WriteLine("Enter the role : ");
+            string role = Console.ReadLine().ToLower();
 
-            // Select only Name and Role into a tuple
-            //var employees = (from emp in list
-            //                 where emp.Role.ToLower().Equals(role)
-            //                 select (emp.Name, emp.Role)).ToList();
+            //Select only Name and Role into a tuple
+            var employees = (from emp in list
+                             where emp.Role.ToLower().Equals(role)
+                             select (emp.Name, emp.Role)).ToList();
 
-            //foreach (var item in employees)
-            //{
-            //    Console.WriteLine($"Name : {item.Name}, Role : {item.Role}");
-            //}
-            // NOTE: Tuples are lightweight and useful when you don’t need the full object
+            foreach (var item in employees)
+            {
+                Console.WriteLine($"Name : {item.Name}, Role : {item.Role}");
+            }
+        //NOTE: Tuples are lightweight and useful when you don’t need the full object
             #endregion
         }
 

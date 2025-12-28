@@ -6,7 +6,7 @@ namespace Day_9_ConnectedAdoNet
     {
         static void Main(string[] args)
         {
-            string connection = "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=DAC;Integrated Security=True";
+            string connection = "Data Source=(localdb)\\ProjectModels;Initial Catalog=DAC;Integrated Security=True";
 
             #region Select query
             //SqlConnection conn = new SqlConnection(connection);
@@ -31,7 +31,7 @@ namespace Day_9_ConnectedAdoNet
             //    Console.WriteLine($"id : {id}, name : {name}, address : {address}");
             //}
 
-            //conn.Close(); 
+            //conn.Close();
             #endregion
 
             #region Insert query
