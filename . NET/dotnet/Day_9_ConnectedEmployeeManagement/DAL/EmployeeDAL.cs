@@ -16,7 +16,7 @@ namespace Day_9_ConnectedEmployeeManagement.DAL
 
         static EmployeeDAL()
         {
-            string connection = "Data Source=(localdb)\\ProjectModels;Initial Catalog=DAC;Integrated Security=True";
+            string connection = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=DAC;Integrated Security=True";
             conn = new SqlConnection(connection);
         }
 

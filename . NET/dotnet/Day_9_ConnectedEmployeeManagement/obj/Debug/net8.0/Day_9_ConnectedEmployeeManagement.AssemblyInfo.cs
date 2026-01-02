@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Day_9_ConnectedEmployeeManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b67ed304b93520790c69bb3aa6e3b3c7c714b7fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a6af28a3c0a74dbbb32ab03001e4de4423c648b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Day_9_ConnectedEmployeeManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Day_9_ConnectedEmployeeManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

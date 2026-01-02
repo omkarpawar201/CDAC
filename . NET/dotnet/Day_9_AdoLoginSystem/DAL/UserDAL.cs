@@ -14,7 +14,7 @@ namespace Day_9_AdoLoginSystem.DAL
 
         static UserDAL()
         {
-            string connection = "Data Source=(localdb)\\ProjectModels;Initial Catalog=DAC;Integrated Security=True";
+            string connection = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=DAC;Integrated Security=True";
             conn = new SqlConnection(connection);
         }
 
@@ -58,9 +58,9 @@ namespace Day_9_AdoLoginSystem.DAL
             return n > 0;
         }
 
-        internal bool updatePassword(string? pass)
+        public bool updatePassword(string? pass, int id)
         {
-            string query = $"update [dbo].[User] set password='{pass}'";
+            string query = $"update [dbo].[User] set password='{pass}' where id={id}";
 
             SqlCommand cmd = new SqlCommand(query, conn);
             conn.Open();

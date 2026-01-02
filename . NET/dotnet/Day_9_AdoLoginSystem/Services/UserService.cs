@@ -43,7 +43,7 @@ namespace Day_9_AdoLoginSystem.Services
                 Console.Write("# Enter New Password : ");
                 string? pass = Console.ReadLine();
 
-                return uDal.updatePassword(pass);
+                return uDal.updatePassword(pass, user.Id);
             }
             else return false;
         }

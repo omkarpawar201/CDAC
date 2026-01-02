@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_ConnectedEmployeeManagement\\Day_9_ConnectedEmployeeManagement.csproj": {}
+    "C:\\Users\\IET\\Desktop\\Omkar Pawar\\CDAC\\. NET\\dotnet\\Day_9_ConnectedEmployeeManagement\\Day_9_ConnectedEmployeeManagement.csproj": {}
   },
   "projects": {
-    "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_ConnectedEmployeeManagement\\Day_9_ConnectedEmployeeManagement.csproj": {
+    "C:\\Users\\IET\\Desktop\\Omkar Pawar\\CDAC\\. NET\\dotnet\\Day_9_ConnectedEmployeeManagement\\Day_9_ConnectedEmployeeManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_ConnectedEmployeeManagement\\Day_9_ConnectedEmployeeManagement.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\Omkar Pawar\\CDAC\\. NET\\dotnet\\Day_9_ConnectedEmployeeManagement\\Day_9_ConnectedEmployeeManagement.csproj",
         "projectName": "Day_9_ConnectedEmployeeManagement",
-        "projectPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_ConnectedEmployeeManagement\\Day_9_ConnectedEmployeeManagement.csproj",
-        "packagesPath": "C:\\Users\\omkar\\.nuget\\packages\\",
-        "outputPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_ConnectedEmployeeManagement\\obj\\",
+        "projectPath": "C:\\Users\\IET\\Desktop\\Omkar Pawar\\CDAC\\. NET\\dotnet\\Day_9_ConnectedEmployeeManagement\\Day_9_ConnectedEmployeeManagement.csproj",
+        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\Omkar Pawar\\CDAC\\. NET\\dotnet\\Day_9_ConnectedEmployeeManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\omkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_GarbageCollector\bin\Debug\net8.0\Day_11_GarbageCollector.exe
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_GarbageCollector\bin\Debug\net8.0\Day_11_GarbageCollector.deps.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_GarbageCollector\bin\Debug\net8.0\Day_11_GarbageCollector.runtimeconfig.json
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_GarbageCollector\bin\Debug\net8.0\Day_11_GarbageCollector.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_GarbageCollector\bin\Debug\net8.0\Day_11_GarbageCollector.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_GarbageCollector\obj\Debug\net8.0\Day_11_GarbageCollector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_GarbageCollector\obj\Debug\net8.0\Day_11_GarbageCollector.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_GarbageCollector\obj\Debug\net8.0\Day_11_GarbageCollector.AssemblyInfo.cs
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_GarbageCollector\obj\Debug\net8.0\Day_11_GarbageCollector.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_GarbageCollector\obj\Debug\net8.0\Day_11_GarbageCollector.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_GarbageCollector\obj\Debug\net8.0\refint\Day_11_GarbageCollector.dll
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_GarbageCollector\obj\Debug\net8.0\Day_11_GarbageCollector.pdb
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_GarbageCollector\obj\Debug\net8.0\Day_11_GarbageCollector.genruntimeconfig.cache
+C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_GarbageCollector\obj\Debug\net8.0\ref\Day_11_GarbageCollector.dll
