@@ -28,3 +28,34 @@ C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_WebMVCDemo1\obj\Debug\net8.0\Day_11_
 C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_WebMVCDemo1\obj\Debug\net8.0\ref\Day_11_WebMVCDemo1.dll
 C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_WebMVCDemo1\obj\Debug\net8.0\Day_11_WebMVCDemo1.RazorAssemblyInfo.cache
 C:\Users\IET\Desktop\CoreNet\CoreNet\Day_11_WebMVCDemo1\obj\Debug\net8.0\Day_11_WebMVCDemo1.RazorAssemblyInfo.cs
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\bin\Debug\net8.0\appsettings.Development.json
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\bin\Debug\net8.0\appsettings.json
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\bin\Debug\net8.0\Day_11_WebMVCDemo1.staticwebassets.endpoints.json
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\bin\Debug\net8.0\Day_11_WebMVCDemo1.exe
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\bin\Debug\net8.0\Day_11_WebMVCDemo1.deps.json
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\bin\Debug\net8.0\Day_11_WebMVCDemo1.runtimeconfig.json
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\bin\Debug\net8.0\Day_11_WebMVCDemo1.dll
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\bin\Debug\net8.0\Day_11_WebMVCDemo1.pdb
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\Day_11_WebMVCDemo1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\Day_11_WebMVCDemo1.AssemblyInfoInputs.cache
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\Day_11_WebMVCDemo1.AssemblyInfo.cs
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\Day_11_WebMVCDemo1.csproj.CoreCompileInputs.cache
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\Day_11_WebMVCDemo1.MvcApplicationPartsAssemblyInfo.cache
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\Day_11_WebMVCDemo1.RazorAssemblyInfo.cache
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\Day_11_WebMVCDemo1.RazorAssemblyInfo.cs
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\Day_11_WebMVCDemo1.sourcelink.json
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\scopedcss\bundle\Day_11_WebMVCDemo1.styles.css
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\staticwebassets.build.json
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\staticwebassets.development.json
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\Day_11_WebMVCDemo1.dll
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\refint\Day_11_WebMVCDemo1.dll
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\Day_11_WebMVCDemo1.pdb
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\Day_11_WebMVCDemo1.genruntimeconfig.cache
+E:\Omkar\CDAC\Github\CDAC\. NET\dotnet\Day_11_WebMVCDemo1\obj\Debug\net8.0\ref\Day_11_WebMVCDemo1.dll

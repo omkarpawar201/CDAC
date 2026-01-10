@@ -1687,23 +1687,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IET\\.nuget\\packages\\": {},
+    "C:\\Users\\omkar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_10_StoredProcedures\\Day_10_StoredProcedures.csproj",
+      "projectUniqueName": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_10_StoredProcedures\\Day_10_StoredProcedures.csproj",
       "projectName": "Day_10_StoredProcedures",
-      "projectPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_10_StoredProcedures\\Day_10_StoredProcedures.csproj",
-      "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IET\\Desktop\\CoreNet\\CoreNet\\Day_10_StoredProcedures\\obj\\",
+      "projectPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_10_StoredProcedures\\Day_10_StoredProcedures.csproj",
+      "packagesPath": "C:\\Users\\omkar\\.nuget\\packages\\",
+      "outputPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_10_StoredProcedures\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\omkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

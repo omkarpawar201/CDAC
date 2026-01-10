@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Day_10_DisconnectedArch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a768ef5c24d90c29d0bed9533be79bad26f688d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Day_10_DisconnectedArch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Day_10_DisconnectedArch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

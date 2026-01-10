@@ -1,3 +1,6 @@
+using Day_13_EF_Filters_Sessions_WebAPI.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace Day_13_EF_Filters_Sessions_WebAPI
 {
     public class Program
@@ -9,6 +12,10 @@ namespace Day_13_EF_Filters_Sessions_WebAPI
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddDbContext<IETDbContext>(options => {
+                options.UseSqlServer("name=IETDb");
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -18,6 +25,7 @@ namespace Day_13_EF_Filters_Sessions_WebAPI
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();

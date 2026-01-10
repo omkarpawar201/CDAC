@@ -3,31 +3,16 @@
   "WorkspaceRootPath": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7634F3D-0984-45AB-838C-0DAC0AB05D83}|Day_9_AdoLoginSystem\\Day_9_AdoLoginSystem.csproj|e:\\omkar\\cdac\\github\\cdac\\. net\\dotnet\\day_9_adologinsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7634F3D-0984-45AB-838C-0DAC0AB05D83}|Day_9_AdoLoginSystem\\Day_9_AdoLoginSystem.csproj|solutionrelative:day_9_adologinsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38387D84-C4ED-4A9D-9D4E-181F665CFB6F}|WebMVC_Practice\\WebMVC_Practice.csproj|e:\\omkar\\cdac\\github\\cdac\\. net\\dotnet\\webmvc_practice\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38387D84-C4ED-4A9D-9D4E-181F665CFB6F}|WebMVC_Practice\\WebMVC_Practice.csproj|solutionrelative:webmvc_practice\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7634F3D-0984-45AB-838C-0DAC0AB05D83}|Day_9_AdoLoginSystem\\Day_9_AdoLoginSystem.csproj|e:\\omkar\\cdac\\github\\cdac\\. net\\dotnet\\day_9_adologinsystem\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7634F3D-0984-45AB-838C-0DAC0AB05D83}|Day_9_AdoLoginSystem\\Day_9_AdoLoginSystem.csproj|solutionrelative:day_9_adologinsystem\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38387D84-C4ED-4A9D-9D4E-181F665CFB6F}|WebMVC_Practice\\WebMVC_Practice.csproj|e:\\omkar\\cdac\\github\\cdac\\. net\\dotnet\\webmvc_practice\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38387D84-C4ED-4A9D-9D4E-181F665CFB6F}|WebMVC_Practice\\WebMVC_Practice.csproj|solutionrelative:webmvc_practice\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7634F3D-0984-45AB-838C-0DAC0AB05D83}|Day_9_AdoLoginSystem\\Day_9_AdoLoginSystem.csproj|e:\\omkar\\cdac\\github\\cdac\\. net\\dotnet\\day_9_adologinsystem\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7634F3D-0984-45AB-838C-0DAC0AB05D83}|Day_9_AdoLoginSystem\\Day_9_AdoLoginSystem.csproj|solutionrelative:day_9_adologinsystem\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B32ADA3A-DECB-4E8C-A587-B21021BFCB7D}|Day_9_ConnectedEmployeeManagement\\Day_9_ConnectedEmployeeManagement.csproj|e:\\omkar\\cdac\\github\\cdac\\. net\\dotnet\\day_9_connectedemployeemanagement\\dal\\employeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B32ADA3A-DECB-4E8C-A587-B21021BFCB7D}|Day_9_ConnectedEmployeeManagement\\Day_9_ConnectedEmployeeManagement.csproj|solutionrelative:day_9_connectedemployeemanagement\\dal\\employeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/DAC/True/SqlTable/dbo.User.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7634F3D-0984-45AB-838C-0DAC0AB05D83}|Day_9_AdoLoginSystem\\Day_9_AdoLoginSystem.csproj|e:\\omkar\\cdac\\github\\cdac\\. net\\dotnet\\day_9_adologinsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7634F3D-0984-45AB-838C-0DAC0AB05D83}|Day_9_AdoLoginSystem\\Day_9_AdoLoginSystem.csproj|solutionrelative:day_9_adologinsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B32ADA3A-DECB-4E8C-A587-B21021BFCB7D}|Day_9_ConnectedEmployeeManagement\\Day_9_ConnectedEmployeeManagement.csproj|e:\\omkar\\cdac\\github\\cdac\\. net\\dotnet\\day_9_connectedemployeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B32ADA3A-DECB-4E8C-A587-B21021BFCB7D}|Day_9_ConnectedEmployeeManagement\\Day_9_ConnectedEmployeeManagement.csproj|solutionrelative:day_9_connectedemployeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38387D84-C4ED-4A9D-9D4E-181F665CFB6F}|WebMVC_Practice\\WebMVC_Practice.csproj|e:\\omkar\\cdac\\github\\cdac\\. net\\dotnet\\webmvc_practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38387D84-C4ED-4A9D-9D4E-181F665CFB6F}|WebMVC_Practice\\WebMVC_Practice.csproj|solutionrelative:webmvc_practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,90 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeDAL.cs",
-              "DocumentMoniker": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_ConnectedEmployeeManagement\\DAL\\EmployeeDAL.cs",
-              "RelativeDocumentMoniker": "Day_9_ConnectedEmployeeManagement\\DAL\\EmployeeDAL.cs",
-              "ToolTip": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_ConnectedEmployeeManagement\\DAL\\EmployeeDAL.cs",
-              "RelativeToolTip": "Day_9_ConnectedEmployeeManagement\\DAL\\EmployeeDAL.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAQwCsAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\WebMVC_Practice\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "WebMVC_Practice\\Controllers\\LoginController.cs",
+              "ToolTip": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\WebMVC_Practice\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "WebMVC_Practice\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T12:48:28.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_ConnectedEmployeeManagement\\Program.cs",
-              "RelativeDocumentMoniker": "Day_9_ConnectedEmployeeManagement\\Program.cs",
-              "ToolTip": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_ConnectedEmployeeManagement\\Program.cs",
-              "RelativeToolTip": "Day_9_ConnectedEmployeeManagement\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T12:47:37.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.User [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/DAC/True/SqlTable/dbo.User.sql",
-              "ToolTip": "dbo.User [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-28T13:05:52.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_AdoLoginSystem\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Day_9_AdoLoginSystem\\Models\\User.cs",
-              "ToolTip": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_AdoLoginSystem\\Models\\User.cs",
-              "RelativeToolTip": "Day_9_AdoLoginSystem\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T12:35:56.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserDAL.cs",
-              "DocumentMoniker": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_AdoLoginSystem\\DAL\\UserDAL.cs",
-              "RelativeDocumentMoniker": "Day_9_AdoLoginSystem\\DAL\\UserDAL.cs",
-              "ToolTip": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_AdoLoginSystem\\DAL\\UserDAL.cs",
-              "RelativeToolTip": "Day_9_AdoLoginSystem\\DAL\\UserDAL.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAwD4AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T12:36:32.15Z",
+              "WhenOpened": "2026-01-09T09:22:18.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_AdoLoginSystem\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Day_9_AdoLoginSystem\\Services\\UserService.cs",
-              "ToolTip": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_AdoLoginSystem\\Services\\UserService.cs",
-              "RelativeToolTip": "Day_9_AdoLoginSystem\\Services\\UserService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAAhAAAAAAAAAA==",
+              "Title": "TestController.cs",
+              "DocumentMoniker": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\WebMVC_Practice\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "WebMVC_Practice\\Controllers\\TestController.cs",
+              "ToolTip": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\WebMVC_Practice\\Controllers\\TestController.cs",
+              "RelativeToolTip": "WebMVC_Practice\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T12:52:02.131Z",
+              "WhenOpened": "2026-01-09T09:22:17.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_AdoLoginSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Day_9_AdoLoginSystem\\Program.cs",
-              "ToolTip": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\Day_9_AdoLoginSystem\\Program.cs",
-              "RelativeToolTip": "Day_9_AdoLoginSystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\WebMVC_Practice\\Program.cs",
+              "RelativeDocumentMoniker": "WebMVC_Practice\\Program.cs",
+              "ToolTip": "E:\\Omkar\\CDAC\\Github\\CDAC\\. NET\\dotnet\\WebMVC_Practice\\Program.cs",
+              "RelativeToolTip": "WebMVC_Practice\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T12:34:56.589Z",
+              "WhenOpened": "2026-01-09T09:22:07.454Z",
               "EditorCaption": ""
             }
           ]
